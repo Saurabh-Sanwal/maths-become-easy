@@ -1,0 +1,63 @@
+.chapters-container {
+    padding: 2rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #000; /* Full black background */
+    min-height: 100vh;
+  }
+  
+  .chapter-title {
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px #60a5fa;
+  }
+  
+  .chapter-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* ✅ Chapter card: Black bg, white text, blue shadow, full row */
+  .chapter-card {
+    background-color: #111; /* Slightly off black */
+    color: #fff; /* White text */
+    padding: 1.2rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.6); /* Blue glow shadow */
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .chapter-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 25px rgba(59, 130, 246, 0.8); /* More glow on hover */
+  }
+  
+  /* ✅ Responsive Design */
+  @media (max-width: 768px) {
+    .chapter-title {
+      font-size: 1.6rem;
+    }
+  
+    .chapter-card {
+      font-size: 1rem;
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .chapter-title {
+      font-size: 1.4rem;
+    }
+  
+    .chapter-card {
+      font-size: 0.95rem;
+      padding: 0.8rem;
+    }
+  }
+  

@@ -1,0 +1,163 @@
+.chapter-page {
+    padding: 2rem;
+    text-align: center;
+    background-color: #0a0a0a;
+    min-height: 100vh;
+  }
+  
+  .chapter-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  .difficulty-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  .difficulty-box {
+    padding: 0.8rem 2rem;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+  }
+  
+  .difficulty-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .easy {
+    background-color: #4caf50;
+  }
+  
+  .medium {
+    background-color: #ff9800;
+  }
+  
+  .hard {
+    background-color: #f44336;
+  }
+  
+  .question-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  /* Updated Question Card */
+  .question-card {
+    width: 100%;
+    max-width: 600px;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: #111;
+    color: white;
+    box-shadow: 0 0 12px blue;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+  }
+  
+  /* Question Text + Icons (top row) */
+  .question-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .question-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+    flex: 1;
+    text-align: left;
+  }
+  
+  /* Tick/Wrong Icon Section */
+  .tick-icon-container {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  
+  .tick-icon,
+  .wrong-icon {
+    width: 26px;
+    height: 26px;
+  }
+  
+  /* Options */
+  .options-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .options-list li {
+    background: #000;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .options-list li:hover {
+    background-color: #222;
+  }
+  
+  /* View Answer Button */
+  .view-answer-button {
+    margin-top: 0.5rem;
+    background-color: #e53935;
+    color: white;
+    padding: 0.4rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .view-answer-button:hover {
+    background-color: #c62828;
+  }
+  
+  /* Answer Text */
+  .answer-text {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #00ff00;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 600px) {
+    .difficulty-icons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .question-card {
+      width: 90%;
+      padding: 1rem;
+    }
+  
+    .question-top {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+  
+    .tick-icon-container {
+      align-self: flex-end;
+    }
+  }
+  

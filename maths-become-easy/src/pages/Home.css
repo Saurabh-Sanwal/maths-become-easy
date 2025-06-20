@@ -1,0 +1,429 @@
+/* ========== Main Container ========== */
+.home-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem 1.5rem;
+    background-color: #000;
+    color: white;
+    min-height: 90vh;
+    gap: 1.5rem;
+    margin-top: 0;
+  }
+  
+  /* ========== Text Section ========== */
+  .home-text {
+    flex: 1;
+    min-width: 200px;
+    max-width: 400px;
+    padding: 0.5rem 1rem;
+    animation: slideInLeft 1s ease forwards;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+  }
+  
+  .main-line {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+  }
+  
+  .highlight {
+    color: #1E90FF;
+    text-shadow: 1px 1px 6px rgba(30, 144, 255, 0.7);
+  }
+  
+  .rotating-line {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    animation: fadeInOut 3s ease-in-out infinite;
+  }
+  
+  /* ========== Image Section ========== */
+  .home-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    padding: 0.5rem;
+    animation: slideInRight 1s ease forwards;
+    animation-delay: 0.4s;
+    animation-fill-mode: both;
+  }
+  
+  .home-image img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+  
+    /* Rotate once and pause */
+    animation: rotateOncePause 5s ease-in-out infinite;
+    transform-origin: center;
+  }
+  
+  /* ========== Animations ========== */
+  @keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(20px); }
+    10% { opacity: 1; transform: translateY(0); }
+    90% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-20px); }
+  }
+  
+  @keyframes slideInLeft {
+    0% { opacity: 0; transform: translateX(-40px); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+  
+  @keyframes slideInRight {
+    0% { opacity: 0; transform: translateX(40px); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+  
+  @keyframes rotateOncePause {
+    0% { transform: rotate(0deg); }
+    20% { transform: rotate(360deg); }
+    100% { transform: rotate(360deg); } /* Pause after full rotation */
+  }
+  
+  /* ========== Mobile Devices (Realme, Samsung, Redmi, etc.) ========== */
+  @media (max-width: 768px) {
+    .home-container {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: 1.2rem 1rem;
+      min-height: auto;
+      gap: 1.2rem;
+    }
+  
+    .home-text {
+      width: 100%;
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+    }
+  
+    .main-line {
+      font-size: 1.4rem;
+      margin-bottom: 0.3rem;
+      line-height: 1.2;
+    }
+  
+    .rotating-line {
+      font-size: 1rem;
+      margin-bottom: 0.6rem;
+    }
+  
+    .home-image {
+      margin-top: 0.5rem;
+      justify-content: flex-start;
+      width: 100%;
+    }
+  
+    .home-image img {
+      max-width: 180px;
+    }
+  }
+  
+  /* ========== Ultra-Small Devices (360px - older phones) ========== */
+  @media (max-width: 420px) {
+    .main-line {
+      font-size: 1.2rem;
+    }
+  
+    .rotating-line {
+      font-size: 0.9rem;
+    }
+  
+    .home-image img {
+      max-width: 160px;
+    }
+  
+    .home-container {
+      gap: 0.8rem;
+    }
+  }
+/* ========== Chapter Section ========== */
+.chapter-section {
+    width: 100%;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .chapter-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .chapter-subheading {
+    font-size: 1.1rem;
+    color: #ff3b3f; /* same red */
+    text-shadow: 1px 1px 8px rgba(255, 59, 63, 0.6); /* red glow */
+    margin-bottom: 1.8rem;
+  }
+  .chapter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    padding: 0 2rem;
+  }
+  
+  
+  /* ========== Chapter Grid ========== */
+  .chapter-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff3b3f; /* 🔴 Red color */
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 8px rgba(255, 59, 63, 0.6); /* red glow */
+  }
+  
+  .chapter-box {
+    background-color: #000;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(30, 144, 255, 0.3); /* 💙 Blue glow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-weight: 500;
+  }
+  
+  .chapter-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 25px rgba(30, 144, 255, 0.5); /* Stronger blue on hover */
+  }
+  
+  /* ========== View Button ========== */
+  .view-button-container {
+    margin-top: 2rem;
+  }
+  
+  .view-button {
+    background-color: #1E90FF;
+    color: white;
+    padding: 0.9rem 1.6rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(30, 144, 255, 0.3);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .view-button:hover {
+    background-color: #187bcd;
+    transform: translateY(-2px);
+  }
+  
+ /* ===== Progress Section ===== */
+.progress-section {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  color: white;
+  background-color: #000;
+}
+
+.progress-heading {
+  font-size: 2rem;
+  color: #1E90FF;
+  text-shadow: 1px 1px 6px rgba(30, 144, 255, 0.7);
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+  text-shadow: 1px 1px 6px rgba(30, 144, 255, 0.5);
+}
+
+.progress-subheading {
+  font-size: 1.1rem;
+  color: #1E90FF;
+  text-shadow: 1px 1px 6px rgba(30, 144, 255, 0.7);
+  margin-bottom: 1rem;
+}
+  
+  
+  .progress-visual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .progress-logo {
+    width: 220px;
+    height: auto;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+  }
+  
+  .ball-animation-section {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color:  rgba(0, 0, 0, 0.1);/* Soft background (not too dark or light) */
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* soft container shadow */
+  }
+  
+  .progress-ground {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: gray;
+  }
+  
+  
+  .rolling-ball {
+    position: absolute;
+    top: -100px; /* start above */
+    left: 0;
+    width: 100px;
+    height: auto;
+    animation: dropAndRoll 6s ease-in-out infinite;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* deep soft shadow for realism */
+  }
+  
+  
+  @keyframes dropAndRoll {
+    0% {
+      transform: translate(0px, -100px) rotate(0deg); /* fall from above */
+    }
+    20% {
+      transform: translate(0px, 0px) rotate(45deg);   /* hits ground */
+    }
+    40% {
+      transform: translate(100px, 0px) rotate(135deg); /* roll forward */
+    }
+    60% {
+      transform: translate(200px, 0px) rotate(225deg); /* continue roll */
+    }
+    80% {
+      transform: translate(100px, 0px) rotate(315deg); /* start return */
+    }
+    100% {
+      transform: translate(0px, 0px) rotate(360deg); /* back to start */
+    }
+  }
+  
+  
+  /* View Progress Button */
+.view-progress-button-container {
+  margin-top: 0.5rem;
+}
+
+.view-progress-button {
+  background-color: #1E90FF;
+  color: white;
+  padding: 0.9rem 1.6rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(30, 144, 255, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.view-progress-button:hover {
+  background-color: #187bcd;
+  transform: translateY(-2px);
+}
+/* Final Section Background & Layout */
+.final-home-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem 2rem;
+  background-color: #111; /* black but not harsh */
+  color: white;
+}
+
+/* Image */
+.static-image {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+}
+
+/* Text Section */
+.final-content {
+  flex: 1;
+  padding: 1rem;
+  max-width: 600px;
+}
+
+/* Animated Line Styling */
+.animated-line {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.blue-text {
+  color: #4da6ff;
+}
+
+.shadow-text {
+  text-shadow: 0 0 8px rgba(0, 174, 255, 0.7);
+}
+
+/* Description Paragraph */
+.website-desc {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+/* Tagline */
+.final-tagline {
+  font-style: italic;
+  font-size: 1rem;
+  color: #aaa;
+  margin-bottom: 1rem;
+}
+
+/* About Me Button */
+.about-nav-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-weight: bold;
+  background-color: #ff8c00; /* dark orange */
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.about-nav-btn:hover {
+  background-color: #e67300;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .final-home-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .final-content {
+    max-width: 100%;
+    padding: 1rem 0;
+  }
+
+  .static-image {
+    margin-bottom: 2rem;
+  }
+}

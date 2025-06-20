@@ -1,0 +1,115 @@
+/* Navbar layout */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #3B3E3D;
+    border-bottom: 1px solid #ccc;
+    position: relative; /* ✅ ADD THIS */
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+  }
+  
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 95px;
+    width: 110px;
+    margin-left: 15px;
+    margin-right: 25px;
+  }
+  
+  .site-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:#EA763f;
+  }
+  
+  /* Desktop Nav Links */
+  .nav-links {
+    display: flex;
+    gap: 4rem;
+    margin-right: 4rem;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 6px 0;
+    transition: color 0.3s ease;
+    font-size: 1.25rem;
+    transition: all 0.3s ease-in-out;
+  
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .nav-link.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  /* Hamburger button */
+  .menu-toggle {
+    display: none;
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease; 
+  }
+  
+  /* When menu is open */
+  .menu-toggle.open {
+    transform: rotate(90deg);
+    color: #007bff;
+    background-color:  wheat;
+  }
+  .menu-toggle:hover {
+    color: #EA763f;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+      color: white;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      right: 0;
+      top: 70px;
+      background:#3B3E3D;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 200px;
+      z-index: 100;
+    }
+  
+    .nav-links.show {
+      display: flex;
+      width: auto;
+    }
+  
+    .nav-link {
+      padding: 12px 0;
+    }
+    .navbar {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+  

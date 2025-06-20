@@ -1,0 +1,322 @@
+/* === WRAPPER === */
+.about-wrapper {
+    background-color: #0d1117;
+    color: white;
+    padding: 2rem 1rem;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* === MAIN HEADING === */
+  .main-heading {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #58a6ff;
+    margin-bottom: 1rem;
+  }
+  
+  /* === INTRO PARAGRAPH === */
+  .intro {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #c9d1d9;
+    line-height: 1.6;
+  }
+  
+  /* === SUB HEADING === */
+  .sub-heading {
+    font-size: 1.6rem;
+    margin: 2.5rem 0 1rem;
+    color: #2ea043;
+  }
+  
+  /* === CHAPTER LIST (SCROLLABLE) === */
+  .about-chapter-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+    scrollbar-width: thin;
+  }
+  
+  /* Firefox Scrollbar */
+  .about-chapter-list {
+    scrollbar-color: #2ea043 #0d1117;
+  }
+  
+  /* Chrome Scrollbar */
+  .about-chapter-list::-webkit-scrollbar {
+    width: 8px;
+  }
+  .about-chapter-list::-webkit-scrollbar-track {
+    background: #0d1117;
+  }
+  .about-chapter-list::-webkit-scrollbar-thumb {
+    background-color: #2ea043;
+    border-radius: 10px;
+  }
+  .about-chapter-list::-webkit-scrollbar-thumb:hover {
+    background-color: #58a6ff;
+  }
+  
+  /* === CHAPTER CARD === */
+  .about-chapter-card {
+    background-color: #161b22;
+    padding: 1.5rem;
+    border-radius: 16px;
+    max-width: 360px;
+    width: 100%;
+    box-shadow: 0 0 14px rgba(46, 160, 67, 0.15);
+    text-align: center;
+  }
+  
+  /* === CHAPTER ICON === */
+  .about-icon-round {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #2ea043;
+    border-radius: 50%;
+    background-color: #0d1117;
+    color: #2ea043;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0.75rem;
+  }
+  
+  /* === CHAPTER TITLE === */
+  .about-chapter-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* === CHAPTER DESCRIPTION === */
+  .about-chapter-desc {
+    font-size: 0.95rem;
+    color: #c9d1d9;
+  }
+  
+  /* === PERSONAL SECTION === */
+  .about-personal-section {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    padding: 4rem 1.5rem 3rem;
+    text-align: center;
+    max-width: 900px;
+    margin: 2rem auto 0;
+  }
+  
+  /* === PROFILE IMAGE === */
+  .about-profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #58a6ff;
+    box-shadow: 0 0 12px rgba(88, 166, 255, 0.3);
+    margin-bottom: 1rem;
+  }
+  
+  /* === PERSONAL HEADING === */
+  .about-personal-heading {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #58a6ff;
+    margin-bottom: 1rem;
+  }
+  
+  /* === PERSONAL DESCRIPTION === */
+  .about-personal-desc {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #c9d1d9;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* === HOME BUTTON SECTION === */
+  .about-home-button-section {
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  
+  .about-home-button {
+    background-color: #f57c00;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(245, 124, 0, 0.3);
+  }
+  
+  .about-home-button:hover {
+    background-color: #fb8c00;
+    transform: scale(1.05);
+  }
+  /* === CONNECT SECTION === */
+  .about-connect-section {
+    margin-top: 2.5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .connect-heading {
+    font-size: 1.6rem;
+    color: #58a6ff;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 8px rgba(88, 166, 255, 0.6);
+  }
+  /* === SOCIAL ICONS WRAPPER === */
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+    flex-wrap: wrap;
+  }
+  
+  /* === BASE ICON STYLE === */
+  .social-icons a img {
+    width: 48px;
+    height: 48px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 6px;
+    object-fit: contain;
+    filter: grayscale(60%) brightness(0.95);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* === LINKEDIN HOVER === */
+  .social-icons a[href*="linkedin"]:hover img {
+    background-color: #0077b5;
+    filter: none;
+    box-shadow: 0 0 12px rgba(0, 119, 181, 0.6);
+    transform: scale(1.1);
+  }
+  
+  /* === INSTAGRAM HOVER === */
+  .social-icons a[href*="instagram"]:hover img {
+    background-color: #e4405f;
+    filter: none;
+    box-shadow: 0 0 12px rgba(228, 64, 95, 0.6);
+    transform: scale(1.1);
+  }
+  
+  .social-icons a[href*="github"]:hover img {
+    background-color: #24292e; /* GitHub slightly lighter gray */
+    filter: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4); /* soft white glow */
+    transform: scale(1.1);
+  }
+  /* === MAIL === */
+  .social-icons a[href^="mailto:"]:hover img {
+    background-color: #ea4335; /* Official Gmail red */
+    filter: brightness(1.1);
+    box-shadow: 0 0 10px rgba(234, 67, 53, 0.4); /* Softer, warmer red */
+    transform: scale(1.08);
+  }
+  /* === MOBILE RESPONSIVE DESIGN === */
+  @media (max-width: 768px) {
+    .about-wrapper {
+      padding: 1.5rem 0.75rem;
+    }
+  
+    .main-heading {
+      font-size: 1.6rem;
+      padding: 0 0.5rem;
+    }
+  
+    .intro {
+      font-size: 0.95rem;
+      padding: 0 0.5rem;
+      line-height: 1.6;
+    }
+  
+    .sub-heading {
+      font-size: 1.3rem;
+      margin: 2rem 0 1rem;
+    }
+  
+    .about-chapter-list {
+      max-height: 350px;
+      padding-right: 6px;
+      gap: 1rem;
+    }
+  
+    .about-chapter-card {
+      max-width: 90%;
+      padding: 1rem;
+    }
+  
+    .about-icon-round {
+      width: 42px;
+      height: 42px;
+      font-size: 1.2rem;
+    }
+  
+    .about-chapter-title {
+      font-size: 1.05rem;
+    }
+  
+    .about-chapter-desc {
+      font-size: 0.9rem;
+    }
+  
+    .about-personal-section {
+      padding: 3rem 1rem 2rem;
+    }
+  
+    .about-profile-pic {
+      width: 140px;
+      height: 140px;
+    }
+  
+    .about-personal-heading {
+      font-size: 1.3rem;
+      margin-bottom: 0.8rem;
+    }
+  
+    .about-personal-desc {
+      font-size: 0.95rem;
+      padding: 0 0.5rem;
+    }
+  
+    .about-home-button {
+      font-size: 0.9rem;
+      padding: 0.65rem 1.2rem;
+    }
+  
+    .connect-heading {
+      font-size: 1.3rem;
+    }
+  
+    .social-icons {
+      gap: 1.2rem;
+      padding: 0 0.5rem;
+      flex-wrap: wrap;
+    }
+  
+    .social-icons a img {
+      width: 42px;
+      height: 42px;
+      padding: 5px;
+    }
+  }
+  
+  

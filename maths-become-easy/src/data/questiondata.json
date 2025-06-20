@@ -1,0 +1,2619 @@
+{
+    "set-theory": {
+      "easy": [
+        {
+          "id": "set-easy-1",
+          "question": "Which of the following is a subset of every set?",
+          "options": ["A", "B", "∅", "{1}"],
+          "answer": "∅"
+        },
+        {
+          "id": "set-easy-2",
+          "question": "What is the cardinality of the set {2, 4, 6, 8}?",
+          "options": ["2", "3", "4", "5"],
+          "answer": "4"
+        },
+        {
+          "id": "set-easy-3",
+          "question": "In a Venn diagram, what does the overlapping area of two circles represent?",
+          "options": ["A ∪ B", "A ∩ B", "A - B", "B - A"],
+          "answer": "A ∩ B"
+        },
+        {
+          "id": "set-easy-4",
+          "question": "If A = {1,2,3}, B = {3,4}, what is A ∩ B?",
+          "options": ["{1,2}", "{3}", "{}", "{1,2,3,4}"],
+          "answer": "{3}"
+        },
+        {
+          "id": "set-easy-5",
+          "question": "What is the symbol for intersection of sets?",
+          "options": ["U", "∩", "∪", "⊂"],
+          "answer": "∩"
+        },
+        {
+          "id": "set-easy-6",
+          "question": "In a Venn diagram, the rectangle represents what?",
+          "options": ["Union", "Intersection", "Universal Set", "Empty Set"],
+          "answer": "Universal Set"
+        },
+        {
+          "id": "set-easy-7",
+          "question": "If A = {1, 2}, B = {2, 3}, what is A ∪ B?",
+          "options": ["{1,2}", "{2,3}", "{1,2,3}", "{1,3}"],
+          "answer": "{1,2,3}"
+        },
+        {
+          "id": "set-easy-8",
+          "question": "Which area represents A - B in a Venn diagram?",
+          "options": ["Only A", "Only B", "Overlap", "Neither"],
+          "answer": "Only A"
+        },
+        {
+          "id": "set-easy-9",
+          "question": "The power set of a set with 2 elements has how many subsets?",
+          "options": ["2", "3", "4", "5"],
+          "answer": "4"
+        },
+        {
+          "id": "set-easy-10",
+          "question": "Two sets with no overlapping area in a Venn diagram are called:",
+          "options": ["Disjoint", "Equal", "Subsets", "Universal"],
+          "answer": "Disjoint"
+        },
+        {
+          "id": "set-easy-11",
+          "question": "What is A ∪ ∅ equal to?",
+          "options": ["∅", "A", "Universal Set", "A ∩ ∅"],
+          "answer": "A"
+        },
+        {
+          "id": "set-easy-12",
+          "question": "What is A ∩ ∅ equal to?",
+          "options": ["A", "∅", "Universal Set", "A ∪ ∅"],
+          "answer": "∅"
+        },
+        {
+          "id": "set-easy-13",
+          "question": "If n(A) = 10 and n(B) = 8, and n(A ∩ B) = 3, what is n(A ∪ B)?",
+          "options": ["15", "18", "5", "21"],
+          "answer": "15"
+        },
+        {
+          "id": "set-easy-14",
+          "question": "Which symbol denotes a proper subset?",
+          "options": ["⊂", "⊆", "=", "∩"],
+          "answer": "⊂"
+        },
+        {
+          "id": "set-easy-15",
+          "question": "What does the shaded area in a Venn diagram of set A represent?",
+          "options": ["A'", "A ∩ B", "A ∪ B", "A"],
+          "answer": "A"
+        },
+        {
+          "id": "set-easy-16",
+          "question": "If A = {}, then A is?",
+          "options": ["Singleton Set", "Empty Set", "Universal Set", "Subset"],
+          "answer": "Empty Set"
+        },
+        {
+          "id": "set-easy-17",
+          "question": "The power set of ∅ is?",
+          "options": ["{∅}", "∅", "{{}}", "{ {}, ∅ }"],
+          "answer": "{∅}"
+        },
+        {
+          "id": "set-easy-18",
+          "question": "If A has 3 elements, number of subsets is?",
+          "options": ["3", "6", "8", "9"],
+          "answer": "8"
+        },
+        {
+          "id": "set-easy-19",
+          "question": "Is ∅ ⊂ A true for any A?",
+          "options": ["True", "False", "Depends", "Not Defined"],
+          "answer": "True"
+        },
+        {
+          "id": "set-easy-20",
+          "question": "If A ⊆ B and B ⊆ C, then A ⊆ C is?",
+          "options": ["Always", "Never", "Sometimes", "False"],
+          "answer": "Always"
+        },
+        {
+          "id": "set-easy-21",
+          "question": "Set with one element is called?",
+          "options": ["Singleton", "Power Set", "Empty Set", "Null Set"],
+          "answer": "Singleton"
+        },
+        {
+          "id": "set-easy-22",
+          "question": "What is A - A?",
+          "options": ["A", "∅", "Universal Set", "Undefined"],
+          "answer": "∅"
+        },
+        {
+          "id": "set-easy-23",
+          "question": "Complement of Universal Set is?",
+          "options": ["∅", "U", "A", "Undefined"],
+          "answer": "∅"
+        },
+        {
+          "id": "set-easy-24",
+          "question": "Which is true?",
+          "options": ["∅ ⊆ A", "A ⊆ ∅", "A = ∅", "A ∩ ∅ = A"],
+          "answer": "∅ ⊆ A"
+        },
+        {
+          "id": "set-easy-25",
+          "question": "What is cardinality of ∅?",
+          "options": ["1", "0", "2", "∞"],
+          "answer": "0"
+        }
+      ],
+      "medium": [
+        {
+          "id": "set-medium-1",
+          "question": "If A = {1,2,3,4}, B = {3,4,5,6}, find A ∩ B",
+          "options": ["{1,2}", "{3,4}", "{5,6}", "{1,2,3,4,5,6}"],
+          "answer": "{3,4}"
+        },
+        {
+          "id": "set-medium-2",
+          "question": "In a Venn diagram with three sets A, B, C, which region is (A ∩ B) ∪ C?",
+          "options": ["A+B overlap", "B+C overlap", "A+B+C overlap", "All shaded"],
+          "answer": "A+B overlap + C"
+        },
+        {
+          "id": "set-medium-3",
+          "question": "Number of subsets of a set with n elements is?",
+          "options": ["n", "2n", "2^n", "n^2"],
+          "answer": "2^n"
+        },
+        {
+          "id": "set-medium-4",
+          "question": "In a class of 30 students, 15 like Math, 12 like Science, and 5 like both. How many like only Math?",
+          "options": ["10", "7", "5", "12"],
+          "answer": "10"
+        },
+        {
+          "id": "set-medium-5",
+          "question": "What is the cardinality of the power set of {a, b, c}?",
+          "options": ["3", "6", "8", "9"],
+          "answer": "8"
+        },
+        {
+          "id": "set-medium-6",
+          "question": "In a Venn diagram, what does the area outside A and B but within the rectangle represent?",
+          "options": ["A' ∩ B'", "A ∪ B", "A ∩ B", "U"],
+          "answer": "A' ∩ B'"
+        },
+        {
+          "id": "set-medium-7",
+          "question": "Which of these is not a valid set operation?",
+          "options": ["Union", "Division", "Intersection", "Complement"],
+          "answer": "Division"
+        },
+        {
+          "id": "set-medium-8",
+          "question": "If n(A ∩ B') = 7 and n(A) = 12, find n(A ∩ B).",
+          "options": ["5", "7", "12", "19"],
+          "answer": "5"
+        },
+        {
+          "id": "set-medium-9",
+          "question": "If A ∪ B = A, what must be true?",
+          "options": ["A ⊂ B", "B ⊂ A", "A = ∅", "B = ∅"],
+          "answer": "B ⊂ A"
+        },
+        {
+          "id": "set-medium-10",
+          "question": "If A ∩ B = ∅, sets A and B are?",
+          "options": ["Equal", "Complement", "Disjoint", "Power Sets"],
+          "answer": "Disjoint"
+        },
+        {
+          "id": "set-medium-11",
+          "question": "Let A = {x: x is an even number < 10}, then A = ?",
+          "options": ["{2,4,6,8}", "{1,3,5,7}", "{0,2,4,6,8}", "{2,4,6}"],
+          "answer": "{2,4,6,8}"
+        },
+        {
+          "id": "set-medium-12",
+          "question": "A = {1,2}, B = {1,2,3}, then A is?",
+          "options": ["Equal", "Superset", "Subset", "Universal Set"],
+          "answer": "Subset"
+        },
+        {
+          "id": "set-medium-13",
+          "question": "Set with no duplicate elements is called?",
+          "options": ["List", "Array", "Set", "Tuple"],
+          "answer": "Set"
+        },
+        {
+          "id": "set-medium-14",
+          "question": "Which is true if A ⊆ B and B ⊆ A?",
+          "options": ["A = B", "A ⊂ B", "B ⊂ A", "A = ∅"],
+          "answer": "A = B"
+        },
+        {
+          "id": "set-medium-15",
+          "question": "What does A - B represent?",
+          "options": ["Intersection", "Complement", "Difference", "Symmetric Difference"],
+          "answer": "Difference"
+        }
+      ],
+      "hard": [
+        {
+          "id": "set-hard-1",
+          "question": "In a Venn diagram with three sets, which region represents A ∩ B ∩ C'?",
+          "options": ["A ∩ B - C", "A ∪ B ∩ C", "(A ∩ B) ∪ C", "A' ∩ B'"],
+          "answer": "A ∩ B - C"
+        },
+        {
+          "id": "set-hard-2",
+          "question": "Number of non-empty subsets of a 5-element set is?",
+          "options": ["31", "32", "30", "16"],
+          "answer": "31"
+        },
+        {
+          "id": "set-hard-3",
+          "question": "What is the symmetric difference of A={1,2} and B={2,3}?",
+          "options": ["{1,2,3}", "{2}", "{1,3}", "{1}"],
+          "answer": "{1,3}"
+        },
+        {
+          "id": "set-hard-4",
+          "question": "Prove using Venn diagrams that n(A ∪ B ∪ C) = n(A) + n(B) + n(C) - n(A ∩ B) - n(B ∩ C) - n(A ∩ C) + n(A ∩ B ∩ C)",
+          "options": [
+            "By showing all overlapping regions",
+            "By counting elements once",
+            "By eliminating double counts",
+            "All of the above"
+          ],
+          "answer": "All of the above"
+        },
+        {
+          "id": "set-hard-5",
+          "question": "Which law: A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)?",
+          "options": ["Distributive", "Associative", "Commutative", "Idempotent"],
+          "answer": "Distributive"
+        },
+        {
+          "id": "set-hard-6",
+          "question": "In a survey, 40% like Tea, 30% like Coffee, and 10% like both. What percentage likes neither?",
+          "options": ["40%", "30%", "20%", "10%"],
+          "answer": "40%"
+        },
+        {
+          "id": "set-hard-7",
+          "question": "If A ⊂ B and B ⊂ C, which is true?",
+          "options": ["A ⊂ C", "C ⊂ A", "A = C", "None"],
+          "answer": "A ⊂ C"
+        },
+        {
+          "id": "set-hard-8",
+          "question": "De Morgan's law: (A ∪ B)' = ?",
+          "options": ["A' ∪ B'", "A' ∩ B'", "(A ∩ B)'", "A ∩ B"],
+          "answer": "A' ∩ B'"
+        },
+        {
+          "id": "set-hard-9",
+          "question": "A ∪ (A ∩ B) = ?",
+          "options": ["A", "B", "A ∩ B", "∅"],
+          "answer": "A"
+        },
+        {
+          "id": "set-hard-10",
+          "question": "A ∩ (A ∪ B) = ?",
+          "options": ["B", "A", "∅", "A ∩ B"],
+          "answer": "A"
+        }
+      ]
+    },
+    "relations-functions": {
+      "easy": [
+        {
+          "id": "rf-easy-1",
+          "question": "If A = {1,2} and B = {3,4}, find A × B",
+          "options": [
+            "{(1,3), (1,4), (2,3), (2,4)}",
+            "{(3,1), (4,1), (3,2), (4,2)}",
+            "{1,2,3,4}",
+            "{(1,2), (3,4)}"
+          ],
+          "answer": "{(1,3), (1,4), (2,3), (2,4)}"
+        },
+        {
+          "id": "rf-easy-2",
+          "question": "If f(x) = 3x - 5, find f(2)",
+          "options": ["1", "-1", "6", "11"],
+          "answer": "1"
+        },
+        {
+          "id": "rf-easy-3",
+          "question": "Which set represents the domain of {(1,a), (2,b), (3,c)}?",
+          "options": ["{a,b,c}", "{1,2,3}", "{(1,a)}", "{1,a,2,b}"],
+          "answer": "{1,2,3}"
+        },
+        {
+          "id": "rf-easy-4",
+          "question": "Find the range of {(1,5), (2,6), (3,5)}",
+          "options": ["{1,2,3}", "{5,6}", "{1,5}", "{5,6,7}"],
+          "answer": "{5,6}"
+        },
+        {
+          "id": "rf-easy-5",
+          "question": "If f(x) = x² + 1, what is f(-2)?",
+          "options": ["-3", "-1", "5", "3"],
+          "answer": "5"
+        },
+        {
+          "id": "rf-easy-6",
+          "question": "Which ordered pair would make R = {(1,2), (2,3)} not a function?",
+          "options": ["(3,4)", "(1,3)", "(2,2)", "(4,5)"],
+          "answer": "(1,3)"
+        },
+        {
+          "id": "rf-easy-7",
+          "question": "If g(x) = 2x and f(x) = x+3, find f(g(2))",
+          "options": ["5", "7", "10", "12"],
+          "answer": "7"
+        },
+        {
+          "id": "rf-easy-8",
+          "question": "Find the inverse of {(1,4), (2,5), (3,6)}",
+          "options": [
+            "{(4,1), (5,2), (6,3)}",
+            "{(1,4), (2,5)}",
+            "{1,2,3}",
+            "{4,5,6}"
+          ],
+          "answer": "{(4,1), (5,2), (6,3)}"
+        },
+        {
+          "id": "rf-easy-9",
+          "question": "If R = {(1,1), (2,2)}, what type of relation is this?",
+          "options": ["Reflexive", "Symmetric", "Transitive", "All of these"],
+          "answer": "All of these"
+        },
+        {
+          "id": "rf-easy-10",
+          "question": "What is the domain of √(x-2)?",
+          "options": ["x > 2", "x ≥ 2", "x < 2", "All real numbers"],
+          "answer": "x ≥ 2"
+        },
+        {
+          "id": "rf-easy-11",
+          "question": "If f(x) = 2x + 1, what is f(3)?",
+          "options": ["5", "7", "9", "11"],
+          "answer": "7"
+        },
+        {
+          "id": "rf-easy-12",
+          "question": "What is the domain of the function f(x) = 1/x?",
+          "options": ["All real numbers", "x ≠ 0", "x > 0", "x < 0"],
+          "answer": "x ≠ 0"
+        },
+        {
+          "id": "rf-easy-13",
+          "question": "Which of these represents a function?",
+          "options": [
+            "{(1,2), (1,3)}", 
+            "{(1,2), (2,2)}", 
+            "{(1,2), (1,2)}", 
+            "{(1,2), (2,1), (1,3)}"
+          ],
+          "answer": "{(1,2), (2,2)}"
+        },
+        {
+          "id": "rf-easy-14",
+          "question": "If A = {1,2} and B = {3}, what is B × A?",
+          "options": [
+            "{(3,1), (3,2)}", 
+            "{(1,3), (2,3)}", 
+            "{1,2,3}", 
+            "{(1,2), (3)}"
+          ],
+          "answer": "{(3,1), (3,2)}"
+        },
+        {
+          "id": "rf-easy-15",
+          "question": "What is the range of {(1,4), (2,4), (3,5)}?",
+          "options": ["{1,2,3}", "{4,5}", "{4}", "{5}"],
+          "answer": "{4,5}"
+        },
+        {
+          "id": "rf-easy-16",
+          "question": "If f(x) = x² and g(x) = x + 1, what is f(g(2))?",
+          "options": ["4", "5", "9", "6"],
+          "answer": "9"
+        },
+        {
+          "id": "rf-easy-17",
+          "question": "Which relation is reflexive on {1, 2}?",
+          "options": [
+            "{(1,1)}", 
+            "{(1,1), (2,2)}", 
+            "{(1,2)}", 
+            "{(1,2), (2,1)}"
+          ],
+          "answer": "{(1,1), (2,2)}"
+        },
+        {
+          "id": "rf-easy-18",
+          "question": "What is the inverse of the function f = {(1,5), (2,6)}?",
+          "options": [
+            "{(5,1), (6,2)}", 
+            "{(1,5), (2,6)}", 
+            "{1,2}", 
+            "{5,6}"
+          ],
+          "answer": "{(5,1), (6,2)}"
+        },
+        {
+          "id": "rf-easy-19",
+          "question": "If f(x) = 3x - 2, find x when f(x) = 10.",
+          "options": ["2", "4", "6", "8"],
+          "answer": "4"
+        },
+        {
+          "id": "rf-easy-20",
+          "question": "How many elements are in A × B if A = {a,b} and B = {1,2,3}?",
+          "options": ["5", "6", "8", "9"],
+          "answer": "6"
+        },
+        {
+          "id": "rf-easy-21",
+          "question": "Which is the identity function?",
+          "options": [
+            "f(x) = 0", 
+            "f(x) = x", 
+            "f(x) = 1", 
+            "f(x) = x²"
+          ],
+          "answer": "f(x) = x"
+        },
+        {
+          "id": "rf-easy-22",
+          "question": "What is f(0) for f(x) = |x - 3|?",
+          "options": ["0", "3", "-3", "1"],
+          "answer": "3"
+        },
+        {
+          "id": "rf-easy-23",
+          "question": "If R = {(1,1), (2,2)}, what property does it have?",
+          "options": [
+            "Only reflexive", 
+            "Only symmetric", 
+            "Reflexive and symmetric", 
+            "Transitive"
+          ],
+          "answer": "Reflexive and symmetric"
+        },
+        {
+          "id": "rf-easy-24",
+          "question": "What is the domain of f(x) = √(9 - x²)?",
+          "options": [
+            "x ≤ 3", 
+            "x ≥ 3", 
+            "-3 ≤ x ≤ 3", 
+            "All real numbers"
+          ],
+          "answer": "-3 ≤ x ≤ 3"
+        },
+        {
+          "id": "rf-easy-25",
+          "question": "If f(x) = 2x + 3 and g(x) = x - 1, what is f(g(5))?",
+          "options": ["8", "11", "13", "15"],
+          "answer": "11"
+        }
+      ],
+      "medium": [
+        {
+          "id": "rf-medium-1",
+          "question": "If A has 3 elements and B has 2 elements, how many relations exist from A to B?",
+          "options": ["8", "16", "64", "256"],
+          "answer": "64"
+        },
+        {
+          "id": "rf-medium-2",
+          "question": "Find gof if f(x) = x+2 and g(x) = x²",
+          "options": ["x²+2", "(x+2)²", "x²+4", "x+4"],
+          "answer": "(x+2)²"
+        },
+        {
+          "id": "rf-medium-3",
+          "question": "Which relation is symmetric but not reflexive on {1,2,3}?",
+          "options": [
+            "{(1,1), (2,2)}",
+            "{(1,2), (2,1)}",
+            "{(1,1), (2,2), (3,3)}",
+            "{(1,2), (2,3)}"
+          ],
+          "answer": "{(1,2), (2,1)}"
+        },
+        {
+          "id": "rf-medium-4",
+          "question": "If f(x) = 3x+4 is bijective, find its inverse",
+          "options": ["(x-4)/3", "(x+4)/3", "3x-4", "4x-3"],
+          "answer": "(x-4)/3"
+        },
+        {
+          "id": "rf-medium-5",
+          "question": "How many functions exist from {a,b} to {1,2,3}?",
+          "options": ["6", "8", "9", "12"],
+          "answer": "9"
+        },
+        {
+          "id": "rf-medium-6",
+          "question": "Find the range of f(x) = 1/(x-2)",
+          "options": [
+            "All real numbers",
+            "y ≠ 0",
+            "y > 0",
+            "y ≠ 1/2"
+          ],
+          "answer": "y ≠ 0"
+        },
+        {
+          "id": "rf-medium-7",
+          "question": "If R = {(1,2), (2,3), (1,3)}, what properties does it have?",
+          "options": [
+            "Only transitive",
+            "Only symmetric",
+            "Reflexive and transitive",
+            "None"
+          ],
+          "answer": "Only transitive"
+        },
+        {
+          "id": "rf-medium-8",
+          "question": "Find fog(2) where f(x) = 2x and g(x) = x²+1",
+          "options": ["6", "8", "10", "12"],
+          "answer": "10"
+        },
+        {
+          "id": "rf-medium-9",
+          "question": "Which is the equivalence relation?",
+          "options": [
+            "{(1,1), (2,2)}",
+            "{(1,2), (2,1)}",
+            "{(1,1), (2,2), (3,3), (1,2), (2,1)}",
+            "{(1,2), (2,3)}"
+          ],
+          "answer": "{(1,1), (2,2), (3,3), (1,2), (2,1)}"
+        },
+        {
+          "id": "rf-medium-10",
+          "question": "If f(x) = 2x-3 and g(x) = (x+3)/2, then gof(x) is",
+          "options": ["x", "x²", "2x", "Undefined"],
+          "answer": "x"
+        },
+        {
+          "id": "rf-medium-11",
+          "question": "How many onto functions exist from {1,2,3} to {a,b}?",
+          "options": ["6", "8", "9", "12"],
+          "answer": "6"
+        },
+        {
+          "id": "rf-medium-12",
+          "question": "If R is reflexive and symmetric, what else is needed for equivalence?",
+          "options": ["Transitivity", "Commutativity", "Associativity", "None"],
+          "answer": "Transitivity"
+        },
+        {
+          "id": "rf-medium-13",
+          "question": "Find the domain of f(x) = √(x-1) + 1/(x-3)",
+          "options": [
+            "x ≥ 1",
+            "x > 1 and x ≠ 3",
+            "x ≥ 1 and x ≠ 3",
+            "All real numbers"
+          ],
+          "answer": "x ≥ 1 and x ≠ 3"
+        },
+        {
+          "id": "rf-medium-14",
+          "question": "If f(x) = x³ and g(x) = ∛x, then (fog)(8) = ?",
+          "options": ["2", "4", "8", "16"],
+          "answer": "8"
+        },
+        {
+          "id": "rf-medium-15",
+          "question": "Which relation is transitive but not symmetric?",
+          "options": [
+            "{(1,1), (2,2)}",
+            "{(1,2), (2,1), (1,1)}",
+            "{(1,2), (2,3), (1,3)}",
+            "{(1,2), (2,1)}"
+          ],
+          "answer": "{(1,2), (2,3), (1,3)}"
+        }
+      ],
+      "hard": [
+        {
+          "id": "rf-hard-1",
+          "question": "How many equivalence relations exist on {1,2,3} with exactly 2 equivalence classes?",
+          "options": ["2", "3", "4", "5"],
+          "answer": "3"
+        },
+        {
+          "id": "rf-hard-2",
+          "question": "If f(x) = (3x+2)/(5x-3) and f⁻¹(x) = f(x), find x",
+          "options": ["0", "1", "-1", "No solution"],
+          "answer": "1"
+        },
+        {
+          "id": "rf-hard-3",
+          "question": "Find the number of onto functions from {1,2,3,4} to {a,b,c}",
+          "options": ["12", "36", "64", "81"],
+          "answer": "36"
+        },
+        {
+          "id": "rf-hard-4",
+          "question": "If R is transitive and symmetric, what else is needed for equivalence?",
+          "options": [
+            "Antisymmetry",
+            "Reflexivity",
+            "Commutativity",
+            "None"
+          ],
+          "answer": "Reflexivity"
+        },
+        {
+          "id": "rf-hard-5",
+          "question": "Find the domain of √(4-x²) + 1/(x-1)",
+          "options": [
+            "[-2,2]",
+            "[-2,1) ∪ (1,2]",
+            "(-∞,∞)",
+            "(1,2]"
+          ],
+          "answer": "[-2,1) ∪ (1,2]"
+        },
+        {
+          "id": "rf-hard-6",
+          "question": "If f(x+1/x) = x² + 1/x², find f(3)",
+          "options": ["5", "7", "9", "11"],
+          "answer": "7"
+        },
+        {
+          "id": "rf-hard-7",
+          "question": "How many binary relations on {1,2} are both symmetric and antisymmetric?",
+          "options": ["2", "4", "6", "8"],
+          "answer": "4"
+        },
+        {
+          "id": "rf-hard-8",
+          "question": "Find the range of f(x) = (2x+1)/(x-3) where x ≠ 3",
+          "options": [
+            "y ≠ 2",
+            "y ≠ 0",
+            "y ≠ -1/3",
+            "All real numbers"
+          ],
+          "answer": "y ≠ 2"
+        },
+        {
+          "id": "rf-hard-9",
+          "question": "If f(x) = 2ˣ and g(x) = log₂x, find (fog)(8) + (gof)(3)",
+          "options": ["11", "12", "13", "14"],
+          "answer": "11"
+        },
+        {
+          "id": "rf-hard-10",
+          "question": "Which partition corresponds to the equivalence relation {(1,1),(2,2),(3,3),(1,2),(2,1)}?",
+          "options": [
+            "{{1,2}, {3}}",
+            "{{1}, {2,3}}",
+            "{{1,2,3}}",
+            "{{1}, {2}, {3}}"
+          ],
+          "answer": "{{1,2}, {3}}"
+        }
+      ]
+    }
+    ,
+    "combinatorics": {
+      "easy": [
+        {
+          "id": "comb-easy-1",
+          "question": "How many ways can you arrange 3 distinct books on a shelf?",
+          "options": ["3", "6", "9", "12"],
+          "answer": "6"
+        },
+        {
+          "id": "comb-easy-2",
+          "question": "What is the value of 4! (4 factorial)?",
+          "options": ["12", "16", "24", "48"],
+          "answer": "24"
+        },
+        {
+          "id": "comb-easy-3",
+          "question": "How many 2-digit numbers can be formed from {1,2,3} without repetition?",
+          "options": ["3", "6", "9", "12"],
+          "answer": "6"
+        },
+        {
+          "id": "comb-easy-4",
+          "question": "What is C(5,2) (5 choose 2)?",
+          "options": ["5", "10", "20", "120"],
+          "answer": "10"
+        },
+        {
+          "id": "comb-easy-5",
+          "question": "How many subsets does a set with 3 elements have?",
+          "options": ["6", "8", "9", "12"],
+          "answer": "8"
+        },
+        {
+          "id": "comb-easy-6",
+          "question": "How many ways can 4 people line up for a photo?",
+          "options": ["12", "16", "24", "256"],
+          "answer": "24"
+        },
+        {
+          "id": "comb-easy-7",
+          "question": "What is P(6,2) (6 permute 2)?",
+          "options": ["12", "15", "30", "36"],
+          "answer": "30"
+        },
+        {
+          "id": "comb-easy-8",
+          "question": "How many 3-letter words can be made from 'ABC' if letters can repeat?",
+          "options": ["6", "9", "27", "64"],
+          "answer": "27"
+        },
+        {
+          "id": "comb-easy-9",
+          "question": "How many ways can you choose 2 fruits from {apple, banana, orange}?",
+          "options": ["3", "6", "9", "12"],
+          "answer": "3"
+        },
+        {
+          "id": "comb-easy-10",
+          "question": "What is 0! (zero factorial) equal to?",
+          "options": ["0", "1", "Undefined", "Infinity"],
+          "answer": "1"
+        },
+        {
+          "id": "comb-easy-11",
+          "question": "How many ways can you arrange the letters in 'MATH'?",
+          "options": ["12", "16", "24", "256"],
+          "answer": "24"
+        },
+        {
+          "id": "comb-easy-12",
+          "question": "How many 3-person committees can be formed from 5 people?",
+          "options": ["10", "15", "30", "60"],
+          "answer": "10"
+        }
+      ],
+      "medium": [
+        {
+          "id": "comb-medium-1",
+          "question": "How many 4-digit numbers can be formed from {1,2,3,4} without repetition?",
+          "options": ["12", "16", "24", "256"],
+          "answer": "24"
+        },
+        {
+          "id": "comb-medium-2",
+          "question": "How many ways can 5 people sit around a circular table?",
+          "options": ["24", "48", "120", "720"],
+          "answer": "24"
+        },
+        {
+          "id": "comb-medium-3",
+          "question": "How many 5-card hands have exactly 2 aces from a standard deck?",
+          "options": ["103776", "1128", "2598960", "624"],
+          "answer": "103776"
+        },
+        {
+          "id": "comb-medium-4",
+          "question": "What is C(n,0) + C(n,1) + ... + C(n,n) equal to?",
+          "options": ["n!", "2^n", "n^2", "2n"],
+          "answer": "2^n"
+        },
+        {
+          "id": "comb-medium-5",
+          "question": "How many ways can you arrange 'MISSISSIPPI' with all S's together?",
+          "options": ["630", "1260", "5040", "7560"],
+          "answer": "630"
+        },
+        {
+          "id": "comb-medium-6",
+          "question": "How many 3-digit even numbers can be formed from {1,2,3,4,5} without repetition?",
+          "options": ["12", "24", "36", "60"],
+          "answer": "24"
+        },
+        {
+          "id": "comb-medium-7",
+          "question": "What is the number of derangements for 3 distinct items?",
+          "options": ["0", "1", "2", "6"],
+          "answer": "2"
+        },
+        {
+          "id": "comb-medium-8",
+          "question": "How many ways can you divide 6 people into two equal groups?",
+          "options": ["10", "15", "20", "720"],
+          "answer": "10"
+        },
+        {
+          "id": "comb-medium-9",
+          "question": "How many solutions does x₁ + x₂ + x₃ = 10 have in non-negative integers?",
+          "options": ["36", "66", "120", "720"],
+          "answer": "66"
+        }
+      ],
+      "hard": [
+        {
+          "id": "comb-hard-1",
+          "question": "How many derangements exist for 4 distinct items?",
+          "options": ["6", "9", "12", "24"],
+          "answer": "9"
+        },
+        {
+          "id": "comb-hard-2",
+          "question": "How many ways can you arrange 'COMBINATORICS' with vowels in alphabetical order?",
+          "options": ["19958400", "39916800", "479001600", "6227020800"],
+          "answer": "19958400"
+        },
+        {
+          "id": "comb-hard-3",
+          "question": "What is the coefficient of x³ in (1+x)⁵(1+x+x²)³?",
+          "options": ["30", "45", "60", "90"],
+          "answer": "45"
+        },
+        {
+          "id": "comb-hard-4",
+          "question": "How many 6-digit numbers have exactly two '1's and two '2's?",
+          "options": ["3600", "7200", "14400", "45360"],
+          "answer": "14400"
+        },
+        {
+          "id": "comb-hard-5",
+          "question": "How many ways can 10 identical balls be distributed into 4 distinct boxes with ≤3 balls per box?",
+          "options": ["24", "48", "96", "120"],
+          "answer": "48"
+        }
+      ]
+    }
+    ,
+    "probability": {
+      "easy": [
+        {
+          "id": "prob-easy-1",
+          "question": "A coin is tossed once. What is the probability of getting heads?",
+          "options": ["0", "1/4", "1/2", "1"],
+          "answer": "1/2"
+        },
+        {
+          "id": "prob-easy-2",
+          "question": "A die is rolled. What is the probability of getting a 3?",
+          "options": ["1/6", "1/3", "1/2", "5/6"],
+          "answer": "1/6"
+        },
+        {
+          "id": "prob-easy-3",
+          "question": "A bag has 3 red and 2 blue marbles. What is P(red)?",
+          "options": ["2/5", "3/5", "1/3", "3/10"],
+          "answer": "3/5"
+        },
+        {
+          "id": "prob-easy-4",
+          "question": "What is the probability of an impossible event?",
+          "options": ["0", "0.5", "1", "Undefined"],
+          "answer": "0"
+        },
+        {
+          "id": "prob-easy-5",
+          "question": "Two coins are tossed. What is P(one head and one tail)?",
+          "options": ["1/4", "1/3", "1/2", "3/4"],
+          "answer": "1/2"
+        },
+        {
+          "id": "prob-easy-6",
+          "question": "A die is rolled. What is P(odd number)?",
+          "options": ["1/6", "1/3", "1/2", "2/3"],
+          "answer": "1/2"
+        },
+        {
+          "id": "prob-easy-7",
+          "question": "From a standard deck, what is P(drawing a heart)?",
+          "options": ["1/13", "1/4", "1/2", "4/13"],
+          "answer": "1/4"
+        },
+        {
+          "id": "prob-easy-8",
+          "question": "If P(A)=0.3, what is P(not A)?",
+          "options": ["0.3", "0.5", "0.7", "1"],
+          "answer": "0.7"
+        },
+        {
+          "id": "prob-easy-9",
+          "question": "A spinner has 4 equal sections (1-4). What is P(>2)?",
+          "options": ["1/4", "1/2", "3/4", "1"],
+          "answer": "1/2"
+        },
+        {
+          "id": "prob-easy-10",
+          "question": "What is P(sure event)?",
+          "options": ["0", "0.5", "1", "Undefined"],
+          "answer": "1"
+        },
+        {
+          "id": "prob-easy-11",
+          "question": "Two dice are rolled. What is P(sum=7)?",
+          "options": ["1/6", "1/12", "1/36", "5/36"],
+          "answer": "1/6"
+        },
+        {
+          "id": "prob-easy-12",
+          "question": "A jar has 5 green and 5 yellow balls. What is P(green)?",
+          "options": ["1/5", "1/2", "5/1", "1"],
+          "answer": "1/2"
+        }
+      ],
+      "medium": [
+        {
+          "id": "prob-medium-1",
+          "question": "A die is rolled. What is P(even or >4)?",
+          "options": ["1/6", "1/3", "1/2", "2/3"],
+          "answer": "2/3"
+        },
+        {
+          "id": "prob-medium-2",
+          "question": "In a deck, what is P(face card | heart)?",
+          "options": ["1/13", "3/13", "3/52", "1/4"],
+          "answer": "3/13"
+        },
+        {
+          "id": "prob-medium-3",
+          "question": "If P(A)=0.4 and P(B)=0.3 (independent), what is P(A and B)?",
+          "options": ["0.12", "0.7", "0.58", "1.2"],
+          "answer": "0.12"
+        },
+        {
+          "id": "prob-medium-4",
+          "question": "A bag has 3 red, 2 blue. Two marbles are drawn without replacement. What is P(both red)?",
+          "options": ["3/10", "9/25", "1/10", "6/25"],
+          "answer": "3/10"
+        },
+        {
+          "id": "prob-medium-5",
+          "question": "If P(A)=0.5, P(B)=0.3, and P(A or B)=0.65, are A and B mutually exclusive?",
+          "options": ["Yes", "No", "Insufficient data", "Depends"],
+          "answer": "No"
+        },
+        {
+          "id": "prob-medium-6",
+          "question": "In a class, 60% like math, 40% like science, and 30% like both. What % like neither?",
+          "options": ["0%", "10%", "30%", "70%"],
+          "answer": "30%"
+        },
+        {
+          "id": "prob-medium-7",
+          "question": "A fair coin is tossed 3 times. What is P(exactly 2 heads)?",
+          "options": ["1/8", "3/8", "1/2", "5/8"],
+          "answer": "3/8"
+        },
+        {
+          "id": "prob-medium-8",
+          "question": "If P(A|B)=0.6 and P(B)=0.5, what is P(A and B)?",
+          "options": ["0.3", "0.6", "1.1", "0.1"],
+          "answer": "0.3"
+        },
+        {
+          "id": "prob-medium-9",
+          "question": "Two events A and B are independent. If P(A)=0.4 and P(B)=0.5, what is P(A or B)?",
+          "options": ["0.2", "0.7", "0.9", "1.1"],
+          "answer": "0.7"
+        }
+      ],
+      "hard": [
+        {
+          "id": "prob-hard-1",
+          "question": "In a deck, if a drawn card is red, what is P(King)?",
+          "options": ["1/13", "2/13", "1/26", "1/52"],
+          "answer": "1/13"
+        },
+        {
+          "id": "prob-hard-2",
+          "question": "A disease affects 1% of a population. A test is 99% accurate. What is P(has disease | tests positive)?",
+          "options": ["~50%", "~99%", "~1%", "~10%"],
+          "answer": "~50%"
+        },
+        {
+          "id": "prob-hard-3",
+          "question": "Three coins are tossed. What is P(at least 2 heads)?",
+          "options": ["1/8", "1/2", "3/8", "5/8"],
+          "answer": "1/2"
+        },
+        {
+          "id": "prob-hard-4",
+          "question": "A bag has 4 red, 3 blue. Three marbles are drawn without replacement. What is P(1 red and 2 blue)?",
+          "options": ["12/35", "18/35", "4/35", "6/35"],
+          "answer": "12/35"
+        },
+        {
+          "id": "prob-hard-5",
+          "question": "If P(A)=0.3, P(B)=0.4, and P(A|B)=0.5, what is P(B|A)?",
+          "options": ["0.2", "0.5", "0.6", "2/3"],
+          "answer": "2/3"
+        },
+        {
+          "id": "prob-hard-6",
+          "question": "A fair die is rolled 4 times. What is P(at least one 6)?",
+          "options": ["671/1296", "625/1296", "1/6", "5/6"],
+          "answer": "671/1296"
+        },
+        {
+          "id": "prob-hard-7",
+          "question": "In a lottery with 1% winning chance, what is P(at least one win in 100 tries)?",
+          "options": ["~37%", "~63%", "~1%", "~99%"],
+          "answer": "~63%"
+        }
+      ]
+    }
+    ,
+    "statistics": {
+      "easy": [
+        {
+          "id": "stats-easy-1",
+          "question": "Given the data [2, 4, 6, 8], what is the mean?",
+          "options": ["3", "4", "5", "6"],
+          "answer": "5"
+        },
+        {
+          "id": "stats-easy-2",
+          "question": "What is the median of [5, 1, 9, 3, 7] after sorting?",
+          "options": ["3", "5", "7", "9"],
+          "answer": "5"
+        },
+        {
+          "id": "stats-easy-3",
+          "question": "Calculate the range of [15, 20, 10, 25].",
+          "options": ["5", "10", "15", "20"],
+          "answer": "15"
+        },
+        {
+          "id": "stats-easy-4",
+          "question": "If a dataset has modes [8, 8, 9], what is the mode?",
+          "options": ["8", "9", "8.5", "No mode"],
+          "answer": "8"
+        },
+        {
+          "id": "stats-easy-5",
+          "question": "What is the variance of [2, 4, 6]? (Population formula)",
+          "options": ["2", "4", "6", "8"],
+          "answer": "4"
+        },
+        {
+          "id": "stats-easy-6",
+          "question": "In a normal distribution, what % lies within 1 SD of the mean?",
+          "options": ["50%", "68%", "95%", "99.7%"],
+          "answer": "68%"
+        },
+        {
+          "id": "stats-easy-7",
+          "question": "If P(A) = 0.4, what is P(not A)?",
+          "options": ["0.4", "0.5", "0.6", "1"],
+          "answer": "0.6"
+        },
+        {
+          "id": "stats-easy-8",
+          "question": "What is the IQR of [10, 20, 30, 40, 50]? (Q3=40, Q1=20)",
+          "options": ["10", "20", "30", "40"],
+          "answer": "20"
+        },
+        {
+          "id": "stats-easy-9",
+          "question": "Calculate 5! (5 factorial).",
+          "options": ["20", "60", "120", "720"],
+          "answer": "120"
+        },
+        {
+          "id": "stats-easy-10",
+          "question": "If X~N(50, 10²), what is P(X < 50)?",
+          "options": ["0", "0.25", "0.5", "1"],
+          "answer": "0.5"
+        }
+      ],
+      "medium": [
+        {
+          "id": "stats-medium-1",
+          "question": "A die is rolled 60 times. Expected frequency of '3' is:",
+          "options": ["5", "10", "15", "20"],
+          "answer": "10"
+        },
+        {
+          "id": "stats-medium-2",
+          "question": "If r = 0.9 for X and Y, the relationship is:",
+          "options": ["Weak positive", "Strong positive", "No correlation", "Negative"],
+          "answer": "Strong positive"
+        },
+        {
+          "id": "stats-medium-3",
+          "question": "For a 95% CI with n=100, which critical z-value is used?",
+          "options": ["1.645", "1.96", "2.33", "2.58"],
+          "answer": "1.96"
+        },
+        {
+          "id": "stats-medium-4",
+          "question": "If P(A∩B) = 0.2 and P(A) = 0.5, find P(B|A).",
+          "options": ["0.1", "0.2", "0.4", "0.5"],
+          "answer": "0.4"
+        },
+        {
+          "id": "stats-medium-5",
+          "question": "Which distribution is right-skewed: mean=15, median=10?",
+          "options": ["Normal", "Uniform", "Right-skewed", "Left-skewed"],
+          "answer": "Right-skewed"
+        },
+        {
+          "id": "stats-medium-6",
+          "question": "In a χ² test, df=4. Critical value at α=0.05 is:",
+          "options": ["7.78", "9.49", "11.07", "13.28"],
+          "answer": "9.49"
+        },
+        {
+          "id": "stats-medium-7",
+          "question": "If SE(mean) = 2 with n=25, what is the population SD?",
+          "options": ["5", "10", "15", "20"],
+          "answer": "10"
+        }
+      ],
+      "hard": [
+        {
+          "id": "stats-hard-1",
+          "question": "For X~N(50,16), P(46 < X < 54) ≈ ?",
+          "options": ["34%", "68%", "95%", "99.7%"],
+          "answer": "68%"
+        },
+        {
+          "id": "stats-hard-2",
+          "question": "Given P(A)=0.3, P(B)=0.4, P(A∪B)=0.6, are A and B independent?",
+          "options": ["Yes", "No", "Insufficient data", "Depends"],
+          "answer": "Yes"
+        },
+        {
+          "id": "stats-hard-3",
+          "question": "In regression ŷ = 2 + 3x, if x increases by 1, y changes by:",
+          "options": ["2", "3", "5", "6"],
+          "answer": "3"
+        },
+        {
+          "id": "stats-hard-4",
+          "question": "A 99% CI is wider than a 95% CI because:",
+          "options": ["Higher confidence", "Larger sample", "Smaller SD", "Lower α"],
+          "answer": "Higher confidence"
+        },
+        {
+          "id": "stats-hard-5",
+          "question": "For H₀: μ=100, H₁: μ≠100, a p-value of 0.03 means:",
+          "options": ["Reject H₀ at α=0.05", "Fail to reject H₀", "Accept H₁", "Inconclusive"],
+          "answer": "Reject H₀ at α=0.05"
+        }
+      ]
+    }
+    ,
+    "differentiation": {
+      "easy": [
+        {
+          "id": "diff-easy-1",
+          "question": "Find the derivative of f(x) = x⁴",
+          "options": ["3x³", "4x³", "4x⁴", "x³"],
+          "answer": "4x³"
+        },
+        {
+          "id": "diff-easy-2",
+          "question": "What is d/dx (sin x)?",
+          "options": ["-cos x", "cos x", "-sin x", "sec² x"],
+          "answer": "cos x"
+        },
+        {
+          "id": "diff-easy-3",
+          "question": "Differentiate f(x) = 5 (constant function)",
+          "options": ["5", "5x", "0", "undefined"],
+          "answer": "0"
+        },
+        {
+          "id": "diff-easy-4",
+          "question": "Find f'(x) for f(x) = 3x² + 2x",
+          "options": ["6x + 2", "3x + 2", "6x", "5x"],
+          "answer": "6x + 2"
+        },
+        {
+          "id": "diff-easy-5",
+          "question": "What is d/dx (eˣ)?",
+          "options": ["eˣ", "xeˣ", "eˣ/x", "0"],
+          "answer": "eˣ"
+        },
+        {
+          "id": "diff-easy-6",
+          "question": "Find dy/dx for y = ln x",
+          "options": ["1/x", "x", "eˣ", "1/eˣ"],
+          "answer": "1/x"
+        },
+        {
+          "id": "diff-easy-7",
+          "question": "Differentiate f(x) = √x",
+          "options": ["1/√x", "1/(2√x)", "2√x", "√x"],
+          "answer": "1/(2√x)"
+        },
+        {
+          "id": "diff-easy-8",
+          "question": "What is d/dx (cos x)?",
+          "options": ["sin x", "-sin x", "tan x", "-cos x"],
+          "answer": "-sin x"
+        },
+        {
+          "id": "diff-easy-9",
+          "question": "Find f'(x) for f(x) = 1/x",
+          "options": ["1/x²", "-1/x²", "ln x", "-1/x"],
+          "answer": "-1/x²"
+        },
+        {
+          "id": "diff-easy-10",
+          "question": "Differentiate f(x) = x⁻²",
+          "options": ["-2x⁻³", "2x⁻¹", "-x⁻³", "2x⁻³"],
+          "answer": "-2x⁻³"
+        },
+        {
+          "id": "diff-easy-11",
+          "question": "What is d/dx (tan x)?",
+          "options": ["sec² x", "csc² x", "-sec² x", "cot x"],
+          "answer": "sec² x"
+        },
+        {
+          "id": "diff-easy-12",
+          "question": "Find dy/dx for y = 4x³ - 2x² + 5",
+          "options": ["12x² - 4x", "12x² - 2x", "4x² - 4x", "12x²"],
+          "answer": "12x² - 4x"
+        },
+        {
+          "id": "diff-easy-13",
+          "question": "Differentiate f(x) = π² (constant)",
+          "options": ["π", "2π", "0", "π²"],
+          "answer": "0"
+        },
+        {
+          "id": "diff-easy-14",
+          "question": "What is d/dx (aˣ) where a > 0?",
+          "options": ["aˣ ln a", "xaˣ⁻¹", "eˣ", "0"],
+          "answer": "aˣ ln a"
+        },
+        {
+          "id": "diff-easy-15",
+          "question": "Find f'(x) for f(x) = 7x - 3",
+          "options": ["7", "7x", "-3", "0"],
+          "answer": "7"
+        }
+      ],
+      "medium": [
+        {
+          "id": "diff-medium-1",
+          "question": "Differentiate f(x) = (2x + 1)(3x - 4) using product rule",
+          "options": ["12x - 5", "6x - 5", "12x + 5", "6x² - 5"],
+          "answer": "12x - 5"
+        },
+        {
+          "id": "diff-medium-2",
+          "question": "Find dy/dx for y = (x² + 3)⁴ using chain rule",
+          "options": ["8x(x² + 3)³", "4(x² + 3)³", "8(x² + 3)³", "4x(x² + 3)³"],
+          "answer": "8x(x² + 3)³"
+        },
+        {
+          "id": "diff-medium-3",
+          "question": "Differentiate f(x) = sin(3x + 2)",
+          "options": ["3cos(3x + 2)", "cos(3x + 2)", "-3cos(3x + 2)", "3sin(3x + 2)"],
+          "answer": "3cos(3x + 2)"
+        },
+        {
+          "id": "diff-medium-4",
+          "question": "Find dy/dx for y = e^(2x²)",
+          "options": ["4xe^(2x²)", "2xe^(2x²)", "e^(2x²)", "4x²e^(2x²)"],
+          "answer": "4xe^(2x²)"
+        },
+        {
+          "id": "diff-medium-5",
+          "question": "Differentiate f(x) = ln(5x³)",
+          "options": ["3/x", "15x²/5x³", "5x²/5x³", "3x²"],
+          "answer": "3/x"
+        },
+        {
+          "id": "diff-medium-6",
+          "question": "Find dy/dx for y = x/(x² + 1) using quotient rule",
+          "options": ["(1 - x²)/(x² + 1)²", "(1 + x²)/(x² + 1)²", "1/(x² + 1)", "(x² - 1)/(x² + 1)²"],
+          "answer": "(1 - x²)/(x² + 1)²"
+        },
+        {
+          "id": "diff-medium-7",
+          "question": "What is d²y/dx² for y = x⁴ - 2x³?",
+          "options": ["12x² - 12x", "4x³ - 6x²", "12x²", "12x - 12"],
+          "answer": "12x² - 12x"
+        },
+        {
+          "id": "diff-medium-8",
+          "question": "Differentiate f(x) = √(3x² + 1)",
+          "options": ["3x/√(3x² + 1)", "1/(2√(3x² + 1))", "6x/√(3x² + 1)", "3/√(3x² + 1)"],
+          "answer": "3x/√(3x² + 1)"
+        },
+        {
+          "id": "diff-medium-9",
+          "question": "Find dy/dx for y = tan(2x)",
+          "options": ["2sec²(2x)", "sec²(2x)", "2tan(2x)", "2sec(2x)"],
+          "answer": "2sec²(2x)"
+        },
+        {
+          "id": "diff-medium-10",
+          "question": "Differentiate f(x) = eˣ sin x",
+          "options": ["eˣ(sin x + cos x)", "eˣ cos x", "eˣ(sin x - cos x)", "eˣ sin x"],
+          "answer": "eˣ(sin x + cos x)"
+        }
+      ],
+      "hard": [
+        {
+          "id": "diff-hard-1",
+          "question": "Find dy/dx for x³ + y³ = 6xy (implicit differentiation)",
+          "options": ["(2y - x²)/(y² - 2x)", "(y² - 2x)/(2y - x²)", "(6y - 3x²)/(3y² - 6x)", "(3y² - 6x)/(6y - 3x²)"],
+          "answer": "(2y - x²)/(y² - 2x)"
+        },
+        {
+          "id": "diff-hard-2",
+          "question": "Differentiate f(x) = x^x (use logarithmic differentiation)",
+          "options": ["x^x(1 + ln x)", "x^(x-1)", "x^x ln x", "x^x(1 - ln x)"],
+          "answer": "x^x(1 + ln x)"
+        },
+        {
+          "id": "diff-hard-3",
+          "question": "Find d³y/dx³ for y = sin(2x)",
+          "options": ["-8cos(2x)", "8cos(2x)", "-8sin(2x)", "8sin(2x)"],
+          "answer": "8cos(2x)"
+        },
+        {
+          "id": "diff-hard-4",
+          "question": "Differentiate f(x) = arcsin(3x)",
+          "options": ["3/√(1 - 9x²)", "1/√(1 - 9x²)", "3/√(1 - x²)", "1/√(1 - 3x²)"],
+          "answer": "3/√(1 - 9x²)"
+        },
+        {
+          "id": "diff-hard-5",
+          "question": "Find dy/dx for y = ln(cos²x)",
+          "options": ["-2tan x", "2tan x", "-2cot x", "2/cos x"],
+          "answer": "-2tan x"
+        },
+        {
+          "id": "diff-hard-6",
+          "question": "Differentiate f(x) = (sin x)^(cos x)",
+          "options": ["(sin x)^(cos x)[(cos²x/sin x) - sin x ln(sin x)]", "(sin x)^(cos x)[cos x cot x - sin x ln(sin x)]", "(cos x)(sin x)^(cos x - 1)", "-(sin x)^(cos x) ln(sin x)"],
+          "answer": "(sin x)^(cos x)[cos x cot x - sin x ln(sin x)]"
+        },
+        {
+          "id": "diff-hard-7",
+          "question": "Find dy/dx for y = ∫(from 0 to x²) sin(t²) dt (Fundamental Theorem of Calculus)",
+          "options": ["2x sin(x⁴)", "sin(x²)", "2x sin(x²)", "sin(x⁴)"],
+          "answer": "2x sin(x⁴)"
+        },
+        {
+          "id": "diff-hard-8",
+          "question": "Differentiate f(x) = sinh⁻¹(2x)",
+          "options": ["2/√(4x² + 1)", "1/√(4x² + 1)", "2/√(x² + 1)", "1/√(x² + 1)"],
+          "answer": "2/√(4x² + 1)"
+        },
+        {
+          "id": "diff-hard-9",
+          "question": "Find dy/dx at x=π/2 for y = x^sin x",
+          "options": ["1", "0", "π/2", "undefined"],
+          "answer": "1"
+        },
+        {
+          "id": "diff-hard-10",
+          "question": "Differentiate f(x) = |x² - 4| at x=3",
+          "options": ["6", "-6", "0", "undefined"],
+          "answer": "6"
+        },
+        {
+          "id": "diff-hard-11",
+          "question": "Find dy/dx for y = (x+1)^(x^2)",
+          "options": ["(x+1)^(x²)[2x ln(x+1) + x²/(x+1)]", "(x+1)^(x²)[x² ln(x+1)]", "x²(x+1)^(x²-1)", "(x²)(x+1)^(x²-1) + (x+1)^(x²)ln(x+1)"],
+          "answer": "(x+1)^(x²)[2x ln(x+1) + x²/(x+1)]"
+        },
+        {
+          "id": "diff-hard-12",
+          "question": "Differentiate f(x) = sec⁻¹(e^x)",
+          "options": ["e^x/(|e^x|√(e^(2x) - 1))", "1/√(e^(2x) - 1)", "e^x/√(1 - e^(2x))", "-e^x/(|e^x|√(e^(2x) - 1))"],
+          "answer": "e^x/(|e^x|√(e^(2x) - 1))"
+        }
+      ]
+    }
+    ,
+    "integration": {
+      "easy": [
+        {
+          "id": "int-easy-1",
+          "question": "∫ 3x² dx = ?",
+          "options": ["x³ + C", "3x³ + C", "6x + C", "x² + C"],
+          "answer": "x³ + C"
+        },
+        {
+          "id": "int-easy-2",
+          "question": "∫ eˣ dx = ?",
+          "options": ["eˣ + C", "xeˣ + C", "eˣ⁻¹ + C", "ln(x) + C"],
+          "answer": "eˣ + C"
+        },
+        {
+          "id": "int-easy-3",
+          "question": "∫ cos(x) dx = ?",
+          "options": ["sin(x) + C", "-sin(x) + C", "cos(x) + C", "-cos(x) + C"],
+          "answer": "sin(x) + C"
+        },
+        {
+          "id": "int-easy-4",
+          "question": "∫ (2x + 5) dx = ?",
+          "options": ["x² + 5x + C", "2x² + 5 + C", "x² + 5 + C", "2x + 5 + C"],
+          "answer": "x² + 5x + C"
+        },
+        {
+          "id": "int-easy-5",
+          "question": "∫₀¹ x dx = ?",
+          "options": ["0.5", "1", "1.5", "2"],
+          "answer": "0.5"
+        },
+        {
+          "id": "int-easy-6",
+          "question": "∫ 1/x dx = ?",
+          "options": ["ln|x| + C", "1/x² + C", "x⁻¹ + C", "ln(x) + C"],
+          "answer": "ln|x| + C"
+        },
+        {
+          "id": "int-easy-7",
+          "question": "∫ sin(x) dx = ?",
+          "options": ["cos(x) + C", "-cos(x) + C", "sin(x) + C", "-sin(x) + C"],
+          "answer": "-cos(x) + C"
+        },
+        {
+          "id": "int-easy-8",
+          "question": "∫ 4 dx = ?",
+          "options": ["4x + C", "4 + C", "0", "x + C"],
+          "answer": "4x + C"
+        },
+        {
+          "id": "int-easy-9",
+          "question": "∫ (x³ + 2x) dx = ?",
+          "options": ["¼x⁴ + x² + C", "x⁴ + x² + C", "3x² + 2 + C", "¼x⁴ + 2x + C"],
+          "answer": "¼x⁴ + x² + C"
+        },
+        {
+          "id": "int-easy-10",
+          "question": "∫₀^π sin(x) dx = ?",
+          "options": ["0", "1", "2", "π"],
+          "answer": "2"
+        },
+        {
+          "id": "int-easy-11",
+          "question": "∫ sec²(x) dx = ?",
+          "options": ["tan(x) + C", "sec(x) + C", "2sec(x) + C", "sec(x)tan(x) + C"],
+          "answer": "tan(x) + C"
+        },
+        {
+          "id": "int-easy-12",
+          "question": "∫ 5eˣ dx = ?",
+          "options": ["5eˣ + C", "e⁵ˣ + C", "5xeˣ + C", "5eˣ⁻¹ + C"],
+          "answer": "5eˣ + C"
+        },
+        {
+          "id": "int-easy-13",
+          "question": "∫ (1/√x) dx = ?",
+          "options": ["2√x + C", "√x + C", "½√x + C", "ln(√x) + C"],
+          "answer": "2√x + C"
+        },
+        {
+          "id": "int-easy-14",
+          "question": "∫ (3x² + 2x + 1) dx = ?",
+          "options": ["x³ + x² + x + C", "6x + 2 + C", "3x³ + 2x² + x + C", "x³ + x + C"],
+          "answer": "x³ + x² + x + C"
+        },
+        {
+          "id": "int-easy-15",
+          "question": "∫₀² (2x + 3) dx = ?",
+          "options": ["10", "8", "12", "14"],
+          "answer": "10"
+        },
+        {
+          "id": "int-easy-16",
+          "question": "∫ (4x³ - 3x²) dx = ?",
+          "options": ["x⁴ - x³ + C", "12x² - 6x + C", "4x⁴ - 3x³ + C", "x⁴ + x³ + C"],
+          "answer": "x⁴ - x³ + C"
+        },
+        {
+          "id": "int-easy-17",
+          "question": "∫ (1 + 1/x²) dx = ?",
+          "options": ["x - 1/x + C", "x + 1/x + C", "ln|x| - 1/x + C", "x + ln|x| + C"],
+          "answer": "x - 1/x + C"
+        },
+        {
+          "id": "int-easy-18",
+          "question": "∫ (eˣ + sin(x)) dx = ?",
+          "options": ["eˣ - cos(x) + C", "eˣ + cos(x) + C", "eˣ + sin(x) + C", "eˣ⁻¹ - cos(x) + C"],
+          "answer": "eˣ - cos(x) + C"
+        },
+        {
+          "id": "int-easy-19",
+          "question": "∫ (5/x) dx = ?",
+          "options": ["5ln|x| + C", "ln|5x| + C", "5/x² + C", "5x⁻¹ + C"],
+          "answer": "5ln|x| + C"
+        },
+        {
+          "id": "int-easy-20",
+          "question": "∫₀^1 (x² + 1) dx = ?",
+          "options": ["4/3", "5/3", "2", "7/3"],
+          "answer": "4/3"
+        }
+      ],
+      "medium": [
+        {
+          "id": "int-medium-1",
+          "question": "∫ x eˣ dx = ?",
+          "options": ["xeˣ - eˣ + C", "xeˣ + eˣ + C", "½x²eˣ + C", "eˣ + C"],
+          "answer": "xeˣ - eˣ + C"
+        },
+        {
+          "id": "int-medium-2",
+          "question": "∫ (3x + 1)⁴ dx = ?",
+          "options": ["⅕(3x + 1)⁵ + C", "⅓(3x + 1)⁵ + C", "⅕(3x + 1)⁵ + C", "12(3x + 1)³ + C"],
+          "answer": "⅕(3x + 1)⁵ + C"
+        },
+        {
+          "id": "int-medium-3",
+          "question": "∫ x sin(x) dx = ?",
+          "options": ["-x cos(x) + sin(x) + C", "x cos(x) - sin(x) + C", "-x sin(x) + cos(x) + C", "x sin(x) + cos(x) + C"],
+          "answer": "-x cos(x) + sin(x) + C"
+        },
+        {
+          "id": "int-medium-4",
+          "question": "∫ (1 / (x ln x)) dx = ?",
+          "options": ["ln|ln x| + C", "1/(ln x)² + C", "ln x + C", "1/x + C"],
+          "answer": "ln|ln x| + C"
+        },
+        {
+          "id": "int-medium-5",
+          "question": "∫ (x / √(x² + 1)) dx = ?",
+          "options": ["√(x² + 1) + C", "½√(x² + 1) + C", "2√(x² + 1) + C", "ln|√(x² + 1)| + C"],
+          "answer": "√(x² + 1) + C"
+        },
+        {
+          "id": "int-medium-6",
+          "question": "∫ (x² + 2x + 1) / (x + 1) dx = ?",
+          "options": ["½x² + x + C", "x² + C", "½x² + 2x + C", "x + C"],
+          "answer": "½x² + x + C"
+        },
+        {
+          "id": "int-medium-7",
+          "question": "∫ sin²(x) dx = ?",
+          "options": ["½x - ¼sin(2x) + C", "½x + ¼sin(2x) + C", "-½cos²(x) + C", "x - sin²(x) + C"],
+          "answer": "½x - ¼sin(2x) + C"
+        },
+        {
+          "id": "int-medium-8",
+          "question": "∫ e^(2x) sin(x) dx requires:",
+          "options": ["Integration by parts twice", "Substitution", "Partial fractions", "Trig identity"],
+          "answer": "Integration by parts twice"
+        },
+        {
+          "id": "int-medium-9",
+          "question": "∫ (3x² + 1) / (x³ + x) dx = ?",
+          "options": ["ln|x³ + x| + C", "3ln|x³ + x| + C", "½ln|x³ + x| + C", "(x³ + x)⁻¹ + C"],
+          "answer": "ln|x³ + x| + C"
+        },
+        {
+          "id": "int-medium-10",
+          "question": "∫ tan(x) sec²(x) dx = ?",
+          "options": ["½tan²(x) + C", "½sec²(x) + C", "ln|sec(x)| + C", "tan(x) + C"],
+          "answer": "½tan²(x) + C"
+        },
+        {
+          "id": "int-medium-11",
+          "question": "∫ (x + 1) / (x² + 2x) dx = ?",
+          "options": ["½ln|x² + 2x| + C", "ln|x² + 2x| + C", "2ln|x + 2| + C", "1/(x² + 2x) + C"],
+          "answer": "½ln|x² + 2x| + C"
+        },
+        {
+          "id": "int-medium-12",
+          "question": "∫ x / (x² + 4) dx = ?",
+          "options": ["½ln|x² + 4| + C", "ln|x² + 4| + C", "1/(x² + 4) + C", "2ln|x² + 4| + C"],
+          "answer": "½ln|x² + 4| + C"
+        },
+        {
+          "id": "int-medium-13",
+          "question": "∫ (2x + 3) / (x² + 3x + 2) dx requires:",
+          "options": ["Partial fractions", "Substitution", "By parts", "Trig substitution"],
+          "answer": "Partial fractions"
+        },
+        {
+          "id": "int-medium-14",
+          "question": "∫ cos³(x) sin(x) dx = ?",
+          "options": ["-¼cos⁴(x) + C", "¼cos⁴(x) + C", "-¾cos²(x) + C", "¾cos²(x) + C"],
+          "answer": "-¼cos⁴(x) + C"
+        },
+        {
+          "id": "int-medium-15",
+          "question": "∫ 1 / (x ln x²) dx = ?",
+          "options": ["½ln|ln x| + C", "ln|ln x| + C", "2ln|ln x| + C", "1/(2ln x) + C"],
+          "answer": "½ln|ln x| + C"
+        }
+      ],
+      "hard": [
+        {
+          "id": "int-hard-1",
+          "question": "∫ √(4 - x²) dx = ?",
+          "options": ["2arcsin(x/2) + (x/2)√(4 - x²) + C", "arcsin(x/2) + √(4 - x²) + C", "2arccos(x/2) - (x/2)√(4 - x²) + C", "½x√(4 - x²) + C"],
+          "answer": "2arcsin(x/2) + (x/2)√(4 - x²) + C"
+        },
+        {
+          "id": "int-hard-2",
+          "question": "∫ x³ e^(x²) dx = ?",
+          "options": ["½e^(x²)(x² - 1) + C", "e^(x²)(x² - 1) + C", "½x²e^(x²) + C", "e^(x²)(x³ - x) + C"],
+          "answer": "½e^(x²)(x² - 1) + C"
+        },
+        {
+          "id": "int-hard-3",
+          "question": "∫ 1 / (x²√(x² - 9)) dx = ?",
+          "options": ["√(x² - 9)/(9x) + C", "arccos(3/x) + C", "arcsec(x/3) + C", "√(x² - 9)/x + C"],
+          "answer": "√(x² - 9)/(9x) + C"
+        },
+        {
+          "id": "int-hard-4",
+          "question": "∫ e^x sin(x) dx = ?",
+          "options": ["½e^x(sin x - cos x) + C", "e^x(cos x + sin x) + C", "½e^x(cos x - sin x) + C", "e^x sin x + C"],
+          "answer": "½e^x(sin x - cos x) + C"
+        },
+        {
+          "id": "int-hard-5",
+          "question": "∫ (x² + 1) / (x³ + x) dx = ?",
+          "options": ["ln|x| + ½ln|x² + 1| + C", "ln|x³ + x| + C", "arctan(x) + ln|x| + C", "2ln|x| + ln|x² + 1| + C"],
+          "answer": "ln|x| + ½ln|x² + 1| + C"
+        },
+        {
+          "id": "int-hard-6",
+          "question": "∫ sin(ln x) dx = ?",
+          "options": ["½x[sin(ln x) - cos(ln x)] + C", "x sin(ln x) + C", "x[sin(ln x) - cos(ln x)] + C", "-cos(ln x)/x + C"],
+          "answer": "½x[sin(ln x) - cos(ln x)] + C"
+        },
+        {
+          "id": "int-hard-7",
+          "question": "∫ 1 / (1 + e^x) dx = ?",
+          "options": ["x - ln(1 + e^x) + C", "ln(1 + e^x) + C", "1/(1 + e^x) + C", "-e⁻ˣ/(1 + e⁻ˣ) + C"],
+          "answer": "x - ln(1 + e^x) + C"
+        },
+        {
+          "id": "int-hard-8",
+          "question": "∫ x arctan(x) dx = ?",
+          "options": ["½(x² + 1)arctan(x) - ½x + C", "x²arctan(x) - x + C", "arctan(x) - 1/(1 + x²) + C", "½x²arctan(x) + C"],
+          "answer": "½(x² + 1)arctan(x) - ½x + C"
+        },
+        {
+          "id": "int-hard-9",
+          "question": "∫ √(x² + 4) dx = ?",
+          "options": ["½x√(x² + 4) + 2ln|x + √(x² + 4)| + C", "√(x² + 4) + arctan(x/2) + C", "x√(x² + 4)/2 + C", "⅓(x² + 4)^(3/2) + C"],
+          "answer": "½x√(x² + 4) + 2ln|x + √(x² + 4)| + C"
+        },
+        {
+          "id": "int-hard-10",
+          "question": "∫ (x³ + x) / (x⁴ + 2x² + 1) dx = ?",
+          "options": ["¼ln|x⁴ + 2x² + 1| + C", "½arctan(x² + 1) + C", "½ln|x² + 1| + C", "¼arctan(x²) + C"],
+          "answer": "¼ln|x⁴ + 2x² + 1| + C"
+        }
+      ]
+    }
+    ,"limits-continuity": {
+      "easy": [
+        {
+          "id": "limit-easy-1",
+          "question": "What is the limit of f(x) = x + 3 as x approaches 2?",
+          "options": ["5", "6", "3", "2"],
+          "answer": "5"
+        },
+        {
+          "id": "limit-easy-2",
+          "question": "lim(x→1) x² = ?",
+          "options": ["0", "1", "2", "3"],
+          "answer": "1"
+        },
+        {
+          "id": "limit-easy-3",
+          "question": "Which function is continuous at all real values of x?",
+          "options": ["f(x) = 1/x", "f(x) = |x|", "f(x) = tan(x)", "f(x) = x³"],
+          "answer": "f(x) = x³"
+        },
+        {
+          "id": "limit-easy-4",
+          "question": "If f(x) = 2x, what is lim(x→4) f(x)?",
+          "options": ["6", "8", "4", "2"],
+          "answer": "8"
+        },
+        {
+          "id": "limit-easy-5",
+          "question": "If lim(x→a) f(x) = L, then:",
+          "options": [
+            "f(a) must be equal to L",
+            "f(a) may or may not exist",
+            "L must be 0",
+            "L must be infinite"
+          ],
+          "answer": "f(a) may or may not exist"
+        },
+        {
+          "id": "limit-easy-6",
+          "question": "What is lim(x→0) 5x?",
+          "options": ["0", "1", "5", "Undefined"],
+          "answer": "0"
+        },
+        {
+          "id": "limit-easy-7",
+          "question": "The limit of a constant function f(x) = c is:",
+          "options": ["Depends on x", "c", "0", "Undefined"],
+          "answer": "c"
+        },
+        {
+          "id": "limit-easy-8",
+          "question": "What is the value of lim(x→2) (x² + 3)?",
+          "options": ["5", "6", "7", "10"],
+          "answer": "7"
+        },
+        {
+          "id": "limit-easy-9",
+          "question": "Is the function f(x) = x² continuous at x = 3?",
+          "options": ["Yes", "No", "Only from the left", "Only from the right"],
+          "answer": "Yes"
+        },
+        {
+          "id": "limit-easy-10",
+          "question": "What is the meaning of continuity at x = a?",
+          "options": [
+            "f(a) is undefined",
+            "lim(x→a) f(x) = f(a)",
+            "f(x) is increasing",
+            "x = a is not in the domain"
+          ],
+          "answer": "lim(x→a) f(x) = f(a)"
+        }
+      ],
+      "medium": [
+        {
+          "id": "limit-medium-1",
+          "question": "lim(x→0) (sin x)/x = ?",
+          "options": ["0", "1", "∞", "Undefined"],
+          "answer": "1"
+        },
+        {
+          "id": "limit-medium-2",
+          "question": "lim(x→1) (x² - 1)/(x - 1) = ?",
+          "options": ["0", "1", "2", "Undefined"],
+          "answer": "2"
+        },
+        {
+          "id": "limit-medium-3",
+          "question": "Which of the following functions has a discontinuity at x = 0?",
+          "options": ["f(x) = x²", "f(x) = |x|", "f(x) = 1/x", "f(x) = x³"],
+          "answer": "f(x) = 1/x"
+        },
+        {
+          "id": "limit-medium-4",
+          "question": "What is the limit of (x² - 4)/(x - 2) as x approaches 2?",
+          "options": ["0", "2", "4", "Undefined"],
+          "answer": "4"
+        },
+        {
+          "id": "limit-medium-5",
+          "question": "A removable discontinuity occurs when:",
+          "options": [
+            "Limit doesn't exist",
+            "Function is undefined but limit exists",
+            "Graph goes to infinity",
+            "Function is constant"
+          ],
+          "answer": "Function is undefined but limit exists"
+        },
+        {
+          "id": "limit-medium-6",
+          "question": "Is f(x) = |x| continuous at x = 0?",
+          "options": ["Yes", "No", "Only right continuous", "Only left continuous"],
+          "answer": "Yes"
+        },
+        {
+          "id": "limit-medium-7",
+          "question": "Which function is **not** continuous at x = π/2?",
+          "options": ["f(x) = cos x", "f(x) = tan x", "f(x) = x²", "f(x) = |x|"],
+          "answer": "f(x) = tan x"
+        },
+        {
+          "id": "limit-medium-8",
+          "question": "If f(x) = (x² - 9)/(x - 3), what is lim(x→3) f(x)?",
+          "options": ["0", "3", "6", "Undefined"],
+          "answer": "6"
+        },
+        {
+          "id": "limit-medium-9",
+          "question": "Which of these is a condition for continuity at x = a?",
+          "options": [
+            "f(a) is defined",
+            "lim(x→a) f(x) exists",
+            "lim(x→a) f(x) = f(a)",
+            "All of the above"
+          ],
+          "answer": "All of the above"
+        }
+      ],
+      "hard": [
+        {
+          "id": "limit-hard-1",
+          "question": "lim(x→0) (1 - cos x)/x² = ?",
+          "options": ["1", "0", "∞", "1/2"],
+          "answer": "1/2"
+        },
+        {
+          "id": "limit-hard-2",
+          "question": "Evaluate: lim(x→∞) (2x² + 3x + 1)/(x² + x)",
+          "options": ["2", "1", "0", "∞"],
+          "answer": "2"
+        },
+        {
+          "id": "limit-hard-3",
+          "question": "lim(x→0) x/|x| = ?",
+          "options": ["0", "1", "-1", "Does not exist"],
+          "answer": "Does not exist"
+        },
+        {
+          "id": "limit-hard-4",
+          "question": "If f(x) is defined as {x² for x ≠ 2, 5 for x = 2}, is f(x) continuous at x = 2?",
+          "options": ["Yes", "No", "Only from the left", "Only from the right"],
+          "answer": "No"
+        },
+        {
+          "id": "limit-hard-5",
+          "question": "Evaluate: lim(x→0) (tan x)/x",
+          "options": ["0", "1", "∞", "Undefined"],
+          "answer": "1"
+        }
+      ]
+    }
+    ,"number-theory": {
+      "easy": [
+        {
+          "id": "number-easy-1",
+          "question": "What is the smallest prime number?",
+          "options": ["0", "1", "2", "3"],
+          "answer": "2"
+        },
+        {
+          "id": "number-easy-2",
+          "question": "What is 7 × 8?",
+          "options": ["54", "56", "58", "60"],
+          "answer": "56"
+        },
+        {
+          "id": "number-easy-3",
+          "question": "Which of the following is a square number?",
+          "options": ["16", "18", "20", "22"],
+          "answer": "16"
+        },
+        {
+          "id": "number-easy-4",
+          "question": "What is the value of 5³?",
+          "options": ["15", "125", "25", "75"],
+          "answer": "125"
+        },
+        {
+          "id": "number-easy-5",
+          "question": "Which number is not a natural number?",
+          "options": ["1", "0", "2", "5"],
+          "answer": "0"
+        },
+        {
+          "id": "number-easy-6",
+          "question": "√49 equals?",
+          "options": ["6", "7", "8", "9"],
+          "answer": "7"
+        },
+        {
+          "id": "number-easy-7",
+          "question": "What is the place value of 7 in 372?",
+          "options": ["70", "700", "7", "0.7"],
+          "answer": "70"
+        },
+        {
+          "id": "number-easy-8",
+          "question": "What is the base of the number 2³?",
+          "options": ["2", "3", "5", "8"],
+          "answer": "2"
+        },
+        {
+          "id": "number-easy-9",
+          "question": "Which number is both even and prime?",
+          "options": ["1", "2", "3", "4"],
+          "answer": "2"
+        },
+        {
+          "id": "number-easy-10",
+          "question": "What is 100 ÷ 10?",
+          "options": ["1", "10", "100", "1000"],
+          "answer": "10"
+        },
+        {
+          "id": "number-easy-11",
+          "question": "What is 9²?",
+          "options": ["81", "27", "18", "72"],
+          "answer": "81"
+        },
+        {
+          "id": "number-easy-12",
+          "question": "Which number is a multiple of 9?",
+          "options": ["14", "27", "32", "23"],
+          "answer": "27"
+        },
+        {
+          "id": "number-easy-13",
+          "question": "What is 3⁰?",
+          "options": ["1", "0", "3", "undefined"],
+          "answer": "1"
+        },
+        {
+          "id": "number-easy-14",
+          "question": "What is the square root of 121?",
+          "options": ["10", "11", "12", "13"],
+          "answer": "11"
+        },
+        {
+          "id": "number-easy-15",
+          "question": "Which number is divisible by both 3 and 5?",
+          "options": ["15", "10", "12", "25"],
+          "answer": "15"
+        },
+        {
+          "id": "number-easy-16",
+          "question": "What is the sum of the digits in 345?",
+          "options": ["12", "9", "10", "11"],
+          "answer": "12"
+        },
+        {
+          "id": "number-easy-17",
+          "question": "Which of the following is a cube number?",
+          "options": ["8", "6", "9", "12"],
+          "answer": "8"
+        },
+        {
+          "id": "number-easy-18",
+          "question": "What is the value of 10⁰?",
+          "options": ["10", "0", "1", "undefined"],
+          "answer": "1"
+        },
+        {
+          "id": "number-easy-19",
+          "question": "What is the prime factorization of 12?",
+          "options": ["2×2×3", "3×4", "6×2", "1×12"],
+          "answer": "2×2×3"
+        },
+        {
+          "id": "number-easy-20",
+          "question": "Which is not a prime number?",
+          "options": ["2", "3", "4", "5"],
+          "answer": "4"
+        },
+        {
+          "id": "number-easy-21",
+          "question": "What is the exponent in 3⁴?",
+          "options": ["3", "4", "7", "1"],
+          "answer": "4"
+        },
+        {
+          "id": "number-easy-22",
+          "question": "What is 6 × 6?",
+          "options": ["36", "12", "30", "42"],
+          "answer": "36"
+        },
+        {
+          "id": "number-easy-23",
+          "question": "What is the square root of 64?",
+          "options": ["6", "7", "8", "9"],
+          "answer": "8"
+        },
+        {
+          "id": "number-easy-24",
+          "question": "How many digits are in the number 1000?",
+          "options": ["3", "4", "2", "5"],
+          "answer": "4"
+        },
+        {
+          "id": "number-easy-25",
+          "question": "What is 2⁵?",
+          "options": ["10", "16", "32", "64"],
+          "answer": "32"
+        }
+      ],
+      "medium": [
+        {
+          "id": "number-medium-1",
+          "question": "What is the LCM of 12 and 15?",
+          "options": ["30", "60", "45", "90"],
+          "answer": "60"
+        },
+        {
+          "id": "number-medium-2",
+          "question": "Which is a perfect cube?",
+          "options": ["27", "36", "18", "64"],
+          "answer": "27"
+        },
+        {
+          "id": "number-medium-3",
+          "question": "Find the value of √(81 × 4)",
+          "options": ["36", "18", "9", "12"],
+          "answer": "18"
+        },
+        {
+          "id": "number-medium-4",
+          "question": "What is 2³ × 3²?",
+          "options": ["36", "72", "18", "24"],
+          "answer": "72"
+        },
+        {
+          "id": "number-medium-5",
+          "question": "Simplify (2²)³",
+          "options": ["8", "64", "16", "32"],
+          "answer": "64"
+        },
+        {
+          "id": "number-medium-6",
+          "question": "What is the value of 81^0.5?",
+          "options": ["9", "8", "10", "6"],
+          "answer": "9"
+        },
+        {
+          "id": "number-medium-7",
+          "question": "What is 9³?",
+          "options": ["81", "729", "243", "512"],
+          "answer": "729"
+        },
+        {
+          "id": "number-medium-8",
+          "question": "What is 64^(1/3)?",
+          "options": ["4", "5", "6", "3"],
+          "answer": "4"
+        },
+        {
+          "id": "number-medium-9",
+          "question": "Find HCF of 18 and 24",
+          "options": ["2", "6", "12", "3"],
+          "answer": "6"
+        },
+        {
+          "id": "number-medium-10",
+          "question": "What is the simplified value of 4⁴ ÷ 4²?",
+          "options": ["8", "16", "4", "2"],
+          "answer": "16"
+        },
+        {
+          "id": "number-medium-11",
+          "question": "What is the sum of the first 10 natural numbers?",
+          "options": ["55", "50", "45", "60"],
+          "answer": "55"
+        },
+        {
+          "id": "number-medium-12",
+          "question": "Which number is a power of 2?",
+          "options": ["12", "16", "18", "20"],
+          "answer": "16"
+        },
+        {
+          "id": "number-medium-13",
+          "question": "What is the unit digit of 7⁴?",
+          "options": ["1", "3", "9", "1"],
+          "answer": "1"
+        },
+        {
+          "id": "number-medium-14",
+          "question": "How many prime numbers are less than 10?",
+          "options": ["2", "3", "4", "5"],
+          "answer": "4"
+        },
+        {
+          "id": "number-medium-15",
+          "question": "Which of the following is irrational?",
+          "options": ["√2", "2", "4", "0.5"],
+          "answer": "√2"
+        },
+        {
+          "id": "number-medium-16",
+          "question": "If x² = 36, what is x?",
+          "options": ["±6", "6", "-6", "12"],
+          "answer": "±6"
+        },
+        {
+          "id": "number-medium-17",
+          "question": "Simplify (3²)²",
+          "options": ["36", "81", "9", "27"],
+          "answer": "81"
+        },
+        {
+          "id": "number-medium-18",
+          "question": "Which number is not a square number?",
+          "options": ["25", "36", "45", "49"],
+          "answer": "45"
+        },
+        {
+          "id": "number-medium-19",
+          "question": "What is 10² + 5²?",
+          "options": ["125", "100", "150", "75"],
+          "answer": "125"
+        },
+        {
+          "id": "number-medium-20",
+          "question": "What is 2⁴ + 3²?",
+          "options": ["25", "22", "18", "21"],
+          "answer": "25"
+        }
+      ],
+      "hard": [
+        {
+          "id": "number-hard-1",
+          "question": "What is the last digit of 7⁹?",
+          "options": ["3", "7", "9", "4"],
+          "answer": "3"
+        },
+        {
+          "id": "number-hard-2",
+          "question": "How many 2-digit numbers are divisible by 7?",
+          "options": ["12", "13", "14", "15"],
+          "answer": "13"
+        },
+        {
+          "id": "number-hard-3",
+          "question": "Simplify: (5⁴ × 5²) ÷ 5³",
+          "options": ["5²", "5³", "5⁴", "5"],
+          "answer": "5³"
+        },
+        {
+          "id": "number-hard-4",
+          "question": "What is the cube root of 1000?",
+          "options": ["10", "100", "1000", "1"],
+          "answer": "10"
+        },
+        {
+          "id": "number-hard-5",
+          "question": "What is the LCM of 24, 36 and 60?",
+          "options": ["120", "180", "240", "360"],
+          "answer": "360"
+        },
+        {
+          "id": "number-hard-6",
+          "question": "If a = 2, b = 3, what is (a² + b²)²?",
+          "options": ["121", "100", "169", "49"],
+          "answer": "121"
+        },
+        {
+          "id": "number-hard-7",
+          "question": "What is the value of (2⁵ - 2³)?",
+          "options": ["24", "20", "32", "16"],
+          "answer": "24"
+        },
+        {
+          "id": "number-hard-8",
+          "question": "How many prime numbers are there between 50 and 70?",
+          "options": ["3", "4", "5", "6"],
+          "answer": "4"
+        },
+        {
+          "id": "number-hard-9",
+          "question": "What is the remainder when 2⁸ is divided by 5?",
+          "options": ["1", "2", "3", "4"],
+          "answer": "1"
+        },
+        {
+          "id": "number-hard-10",
+          "question": "If x = 3, evaluate: x⁴ - 4x² + 4",
+          "options": ["25", "13", "5", "1"],
+          "answer": "25"
+        }
+      ]
+    }
+    ,"trigonometry": {
+      "easy": [
+        {
+          "id": "trig-easy-1",
+          "question": "What is sin(30°)?",
+          "options": ["0", "1/2", "√2/2", "√3/2"],
+          "answer": "1/2"
+        },
+        {
+          "id": "trig-easy-2",
+          "question": "What is cos(60°)?",
+          "options": ["0", "1/2", "√2/2", "√3/2"],
+          "answer": "1/2"
+        },
+        {
+          "id": "trig-easy-3",
+          "question": "tan(45°) =", 
+          "options": ["0", "1", "√3", "∞"],
+          "answer": "1"
+        },
+        {
+          "id": "trig-easy-4",
+          "question": "Which is the primary ratio for opposite/hypotenuse?",
+          "options": ["sinθ", "cosθ", "tanθ", "cotθ"],
+          "answer": "sinθ"
+        },
+        {
+          "id": "trig-easy-5",
+          "question": "sec(90°) equals?", 
+          "options": ["0", "1", "∞", "√2"],
+          "answer": "∞"
+        },
+        {
+          "id": "trig-easy-6",
+          "question": "cosec(30°) =",
+          "options": ["1", "2", "√2", "√3"],
+          "answer": "2"
+        },
+        {
+          "id": "trig-easy-7",
+          "question": "tan(0°) =", 
+          "options": ["0", "1", "∞", "undefined"],
+          "answer": "0"
+        },
+        {
+          "id": "trig-easy-8",
+          "question": "cos(0°) =",
+          "options": ["0", "1", "–1", "undefined"],
+          "answer": "1"
+        },
+        {
+          "id": "trig-easy-9",
+          "question": "sin(90°) =", 
+          "options": ["0", "1", "–1", "undefined"],
+          "answer": "1"
+        },
+        {
+          "id": "trig-easy-10",
+          "question": "cot(45°) =", 
+          "options": ["0", "1", "√3", "1/√3"],
+          "answer": "1"
+        },
+        {
+          "id": "trig-easy-11",
+          "question": "sec(0°) =", 
+          "options": ["1", "0", "∞", "undefined"],
+          "answer": "1"
+        },
+        {
+          "id": "trig-easy-12",
+          "question": "cosec(90°) =", 
+          "options": ["0", "1", "∞", "undefined"],
+          "answer": "1"
+        },
+        {
+          "id": "trig-easy-13",
+          "question": "tan(90°) is", 
+          "options": ["0", "1", "∞", "undefined"],
+          "answer": "undefined"
+        },
+        {
+          "id": "trig-easy-14",
+          "question": "Which is sin²θ + cos²θ = ?", 
+          "options": ["0", "1", "sinθcosθ", "tanθ"], 
+          "answer": "1"
+        },
+        {
+          "id": "trig-easy-15",
+          "question": "In a right triangle, tanθ = ____________.", 
+          "options": ["adjacent/hypotenuse", "opposite/adjacent", "opposite/hypotenuse", "hypotenuse/adjacent"],
+          "answer": "opposite/adjacent"
+        },
+        {
+          "id": "trig-easy-16",
+          "question": "cos²θ + sin²θ is always =", 
+          "options": ["2", "1", "0", "tan²θ"],
+          "answer": "1"
+        },
+        {
+          "id": "trig-easy-17",
+          "question": "If sinθ = 1, θ equals?", 
+          "options": ["0°", "90°", "180°", "270°"],
+          "answer": "90°"
+        },
+        {
+          "id": "trig-easy-18",
+          "question": "Which is the reciprocal of tanθ?", 
+          "options": ["cosθ", "cotθ", "secθ", "cosecθ"],
+          "answer": "cotθ"
+        },
+        {
+          "id": "trig-easy-19",
+          "question": "cos(90°) =",
+          "options": ["0", "1", "–1", "undefined"],
+          "answer": "0"
+        },
+        {
+          "id": "trig-easy-20",
+          "question": "cot(0°) =",
+          "options": ["0", "1", "∞", "undefined"],
+          "answer": "undefined"
+        },
+        {
+          "id": "trig-easy-21",
+          "question": "sin(180°) =",
+          "options": ["–1", "0", "1", "undefined"],
+          "answer": "0"
+        },
+        {
+          "id": "trig-easy-22",
+          "question": "cos(180°) =",
+          "options": ["–1", "0", "1", "undefined"],
+          "answer": "–1"
+        },
+        {
+          "id": "trig-easy-23",
+          "question": "tan(180°) =",
+          "options": ["0", "1", "–1", "undefined"],
+          "answer": "0"
+        },
+        {
+          "id": "trig-easy-24",
+          "question": "Which is an even function?",
+          "options": ["sinθ", "cosθ", "tanθ", "cotθ"],
+          "answer": "cosθ"
+        },
+        {
+          "id": "trig-easy-25",
+          "question": "Which is an odd function?",
+          "options": ["sinθ", "cosθ", "secθ", "cotθ"],
+          "answer": "sinθ"
+        }
+      ],
+      "medium": [
+        {
+          "id": "trig-medium-1",
+          "question": "What is sin(45°)?",
+          "options": ["√2/2", "1/2", "√3/2", "1"],
+          "answer": "√2/2"
+        },
+        {
+          "id": "trig-medium-2",
+          "question": "cos(30°) =",
+          "options": ["√3/2", "1/2", "√2/2", "1"],
+          "answer": "√3/2"
+        },
+        {
+          "id": "trig-medium-3",
+          "question": "tan(30°) =",
+          "options": ["√3/3", "√3", "1/√2", "1"],
+          "answer": "√3/3"
+        },
+        {
+          "id": "trig-medium-4",
+          "question": "If tanθ =1, then θ =",
+          "options": ["30°", "45°", "60°", "90°"],
+          "answer": "45°"
+        },
+        {
+          "id": "trig-medium-5",
+          "question": "Which identity is correct? 1 + tan²θ = ____",
+          "options": ["sec²θ", "cosec²θ", "sin²θ", "cos²θ"],
+          "answer": "sec²θ"
+        },
+        {
+          "id": "trig-medium-6",
+          "question": "What is sin(150°)?",
+          "options": ["1/2", "√3/2", "√2/2", "–1/2"],
+          "answer": "1/2"
+        },
+        {
+          "id": "trig-medium-7",
+          "question": "cos(150°) =",
+          "options": ["–√3/2", "√3/2", "–1/2", "1/2"],
+          "answer": "–√3/2"
+        },
+        {
+          "id": "trig-medium-8",
+          "question": "tan(150°) =",
+          "options": ["–1/√3", "–√3", "√3", "1/√3"],
+          "answer": "–1/√3"
+        },
+        {
+          "id": "trig-medium-9",
+          "question": "sin²45° + cos²45° =",
+          "options": ["1", "√2", "2", "0"],
+          "answer": "1"
+        },
+        {
+          "id": "trig-medium-10",
+          "question": "Convert 120° to radians.",
+          "options": ["2π/3", "π/2", "3π/4", "π/3"],
+          "answer": "2π/3"
+        },
+        {
+          "id": "trig-medium-11",
+          "question": "Convert π/6 to degrees.",
+          "options": ["30°", "45°", "60°", "90°"],
+          "answer": "30°"
+        },
+        {
+          "id": "trig-medium-12",
+          "question": "Which is cos(2θ) identity?",
+          "options": ["cos²θ - sin²θ", "2sinθcosθ", "1 - 2sin²θ", "Both A & C"],
+          "answer": "Both A & C"
+        },
+        {
+          "id": "trig-medium-13",
+          "question": "What is sin(2×30°)?",
+          "options": ["√3/2", "1/2", "√3", "1"],
+          "answer": "√3/2"
+        },
+        {
+          "id": "trig-medium-14",
+          "question": "What is tan(2θ) identity?",
+          "options": ["2tanθ / (1 - tan²θ)", "sin2θ/cos2θ", "tan²θ - 1/tan²θ", "1 - tan²θ"],
+          "answer": "2tanθ / (1 - tan²θ)"
+        },
+        {
+          "id": "trig-medium-15",
+          "question": "Solve for θ: cosθ = 0.5 in [0°,180°]",
+          "options": ["60°, 120°", "30°, 150°", "45°, 135°", "None"],
+          "answer": "60°, 120°"
+        },
+        {
+          "id": "trig-medium-16",
+          "question": "sin(2θ) identity is ____.",
+          "options": ["2sinθcosθ", "sin²θ - cos²θ", "tanθ", "1"],
+          "answer": "2sinθcosθ"
+        },
+        {
+          "id": "trig-medium-17",
+          "question": "cotθ = ?", 
+          "options": ["cosθ / sinθ", "sinθ / cosθ", "1 / tanθ", "Both A & C"],
+          "answer": "Both A & C"
+        },
+        {
+          "id": "trig-medium-18",
+          "question": "sin(π/4) in radicals =",
+          "options": ["√2/2", "1", "√3/2", "√3/3"],
+          "answer": "√2/2"
+        },
+        {
+          "id": "trig-medium-19",
+          "question": "cos(π/3) =", 
+          "options": ["1/2", "√3/2", "√2/2", "1"],
+          "answer": "1/2"
+        },
+        {
+          "id": "trig-medium-20",
+          "question": "tan(π/6) =", 
+          "options": ["√3/3", "√3/2", "1", "√3"],
+          "answer": "√3/3"
+        }
+      ],
+      "hard": [
+        {
+          "id": "trig-hard-1",
+          "question": "Find sin(75°).",
+          "options": ["√6 + √2 / 4", "√6 - √2 / 4", "√3/2", "√2/2"],
+          "answer": "√6 + √2 / 4"
+        },
+        {
+          "id": "trig-hard-2",
+          "question": "cos(15°) = ?",
+          "options": ["√6 + √2 / 4", "√6 - √2 / 4", "√3/2", "√2/2"],
+          "answer": "√6 + √2 / 4"
+        },
+        {
+          "id": "trig-hard-3",
+          "question": "tan(75°) = ?",
+          "options": ["2 + √3", "2 - √3", "√3 + 1", "√3 - 1"],
+          "answer": "2 + √3"
+        },
+        {
+          "id": "trig-hard-4",
+          "question": "sin(18°) = ?",
+          "options": ["(√5 - 1)/4", "(√5 + 1)/4", "√2/4", "√3/4"],
+          "answer": "(√5 - 1)/4"
+        },
+        {
+          "id": "trig-hard-5",
+          "question": "cos(36°) = ?",
+          "options": ["(√5 + 1)/4", "(√5 - 1)/4", "√3/2", "√2/2"],
+          "answer": "(√5 + 1)/4"
+        },
+        {
+          "id": "trig-hard-6",
+          "question": "tan(15°) = ?",
+          "options": ["2 - √3", "2 + √3", "√3/3", "√2"],
+          "answer": "2 - √3"
+        },
+        {
+          "id": "trig-hard-7",
+          "question": "Prove that tan(A + B) = (tanA + tanB)/(1 − tanA·tanB).",
+          "options": ["Use sine/cosine definitions", "Use unit circle", "Use complex numbers", "None"],
+          "answer": "Use sine/cosine definitions"
+        },
+        {
+          "id": "trig-hard-8",
+          "question": "Solve for θ: sinθ = √2/2, θ ∈ [0°,360°].",
+          "options": ["45°, 135°", "45°, 225°", "135°, 225°", "45°, 135°, 225°, 315°"],
+          "answer": "45°, 135°, 225°, 315°"
+        },
+        {
+          "id": "trig-hard-9",
+          "question": "Simplify secθ + tanθ when sinθ = 3/5.",
+          "options": ["(5 + 3)/4", "2", "8/4", "4"],
+          "answer": "4"
+        },
+        {
+          "id": "trig-hard-10",
+          "question": "Find cos(α − β) identity.",
+          "options": ["cosαcosβ + sinαsinβ", "cosαsinβ – sinαcosβ", "sinαsinβ – cosαcosβ", "sinαcosβ + cosαsinβ"],
+          "answer": "cosαcosβ + sinαsinβ"
+        },
+        {
+          "id": "trig-hard-11",
+          "question": "Find sin(α + β) identity.",
+          "options": ["sinαcosβ + cosαsinβ", "sinαsinβ + cosαcosβ", "cosαsinβ – sinαcosβ", "cosαcosβ – sinαsinβ"],
+          "answer": "sinαcosβ + cosαsinβ"
+        },
+        {
+          "id": "trig-hard-12",
+          "question": "Solve tan²θ + 1 = sec²θ.",
+          "options": ["Identity holds", "False", "Only when θ=0", "Only when θ=90°"],
+          "answer": "Identity holds"
+        },
+        {
+          "id": "trig-hard-13",
+          "question": "Evaluate sin(π/3)cos(π/6) + cos(π/3)sin(π/6).",
+          "options": ["1", "√3/2", "√2/2", "1/2"],
+          "answer": "1"
+        },
+        {
+          "id": "trig-hard-14",
+          "question": "Express tanθ in terms of sin and cos.",
+          "options": ["sinθ/cosθ", "cosθ/sinθ", "1/sinθcosθ", "sinθ·cosθ"],
+          "answer": "sinθ/cosθ"
+        },
+        {
+          "id": "trig-hard-15",
+          "question": "Simplify (sin²θ − cos²θ).",
+          "options": ["−cos2θ", "cos2θ", "tan2θ", "0"],
+          "answer": "−cos2θ"
+        },
+        {
+          "id": "trig-hard-16",
+          "question": "If cosθ = 12/13, find sinθ (θ acute).",
+          "options": ["5/13", "12/5", "13/12", "√13/5"],
+          "answer": "5/13"
+        },
+        {
+          "id": "trig-hard-17",
+          "question": "Solve sin2θ = √3/2, θ ∈ [0°,180°].",
+          "options": ["30°, 60°", "30°, 75°", "30°, 45°", "15°, 75°"],
+          "answer": "30°, 60°"
+        },
+        {
+          "id": "trig-hard-18",
+          "question": "Prove that sin²θ = (1 − cos2θ)/2.",
+          "options": ["Use cos2θ identity", "Use tanθ identity", "Use Pythagoras", "Use logarithms"],
+          "answer": "Use cos2θ identity"
+        },
+        {
+          "id": "trig-hard-19",
+          "question": "Find the general solution: sinθ = 0",
+          "options": ["θ = nπ", "θ = π/2 + nπ", "θ = 2nπ", "θ = nπ/2"],
+          "answer": "θ = nπ"
+        },
+        {
+          "id": "trig-hard-20",
+          "question": "Simplify tan(A − B).",
+          "options": ["(tanA − tanB)/(1 + tanA tanB)", "(tanA + tanB)/(1 − tanA tanB)", "tanA − tanB", "1"],
+          "answer": "(tanA − tanB)/(1 + tanA tanB)"
+        }
+      ]
+    }
+  }
