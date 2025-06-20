@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command = "cd maths-become-easy && npm run build"
+  publish = "maths-become-easy/dist"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "20"  # Must be 20+ for react-router-dom
